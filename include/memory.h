@@ -15,14 +15,6 @@
 #define FREE_ARRAY(type, pointer, oldCount) \
     reallocate(pointer, sizeof(type) * (oldCount), 0)
 
-/**
-* Dynamic Memory Management function
-* oldSize     newSize                  Operation
-* 0           Non_zero                 Allocate new Block
-* Non_zero    0                        Free Allocation
-* Non_zero    Smaller than oldSize     Shrink existing allocation
-* Non_zero    Larger Than oldSize      Grow existing allocation
-*/
 void* reallocate(void* oldArray, size_t oldSize, size_t newSize);
 
 #endif

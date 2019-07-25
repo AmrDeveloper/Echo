@@ -7,15 +7,8 @@
 
 #include "chunk.h"
 
-/**
- * disassemble all of the instructions in the entire chunk
- */
 void disassembleChunk(Chunk* chunk, const char* name);
 
-/**
- * disassembles a single instruction
- * returns the offset of the next instruction
- */
 int disassembleInstruction(Chunk* chunk, int offset);
 
 #endif
