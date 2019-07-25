@@ -94,10 +94,16 @@
 		<Unit filename="D:/LowLevel/Echo/include/memory.h">
 			<Option target="Echo"/>
 		</Unit>
+		<Unit filename="D:/LowLevel/Echo/include/value.h">
+			<Option target="Echo"/>
+		</Unit>
 		<Unit filename="D:/LowLevel/Echo/main.c">
 			<Option target="Echo"/>
 		</Unit>
 		<Unit filename="D:/LowLevel/Echo/memory.c">
+			<Option target="Echo"/>
+		</Unit>
+		<Unit filename="D:/LowLevel/Echo/value.c">
 			<Option target="Echo"/>
 		</Unit>
 		<Unit filename="D:/LowLevel/Echo/vm/echo-vm.h">

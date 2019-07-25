@@ -230,6 +230,33 @@ memory.c.s:
 	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/memory.c.s
 .PHONY : memory.c.s
 
+value.obj: value.c.obj
+
+.PHONY : value.obj
+
+# target to build an object file
+value.c.obj:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/value.c.obj
+.PHONY : value.c.obj
+
+value.i: value.c.i
+
+.PHONY : value.i
+
+# target to preprocess a source file
+value.c.i:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/value.c.i
+.PHONY : value.c.i
+
+value.s: value.c.s
+
+.PHONY : value.s
+
+# target to generate assembly for a file
+value.c.s:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/value.c.s
+.PHONY : value.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,6 +278,9 @@ help:
 	@echo ... memory.obj
 	@echo ... memory.i
 	@echo ... memory.s
+	@echo ... value.obj
+	@echo ... value.i
+	@echo ... value.s
 .PHONY : help
 
 

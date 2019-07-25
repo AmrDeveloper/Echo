@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/LowLevel/Echo/debug.c" "D:/LowLevel/Echo/cmake-build-debug/CMakeFiles/Echo.dir/debug.c.obj"
   "D:/LowLevel/Echo/main.c" "D:/LowLevel/Echo/cmake-build-debug/CMakeFiles/Echo.dir/main.c.obj"
   "D:/LowLevel/Echo/memory.c" "D:/LowLevel/Echo/cmake-build-debug/CMakeFiles/Echo.dir/memory.c.obj"
+  "D:/LowLevel/Echo/value.c" "D:/LowLevel/Echo/cmake-build-debug/CMakeFiles/Echo.dir/value.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -6,6 +6,7 @@
 #define ECHO_CHUNK_H
 
 #include "common.h"
+#include "value.h"
 
 //each instruction has a one-byte operation code (OP)
 //This enum represent type of operation code
@@ -15,9 +16,10 @@ typedef enum {
 
 //A dynamic array of instructions
 typedef struct {
-    uint8_t* code;
     int count;
     int capacity;
+    ValueArray constants;
+    uint8_t* code;
 } Chunk;
 
 void initChunk(Chunk* chunk);
@@ -25,5 +27,7 @@ void initChunk(Chunk* chunk);
 void freeChunk(Chunk* chunk);
 
 void writeChunk(Chunk* chunk, uint8_t byte);
+
+int addConstant(Chunk* chunk, Value value);
 
 #endif

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Echo.dir/chunk.c.obj"
   "CMakeFiles/Echo.dir/memory.c.obj"
   "CMakeFiles/Echo.dir/debug.c.obj"
+  "CMakeFiles/Echo.dir/value.c.obj"
   "Echo.pdb"
   "Echo.exe"
   "Echo.exe.manifest"
