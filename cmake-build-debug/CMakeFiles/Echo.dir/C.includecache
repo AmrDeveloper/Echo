@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/LowLevel/Echo/include/chunk.h
+common.h
+D:/LowLevel/Echo/include/common.h
+
+D:/LowLevel/Echo/include/common.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+D:/LowLevel/Echo/include/debug.h
+chunk.h
+D:/LowLevel/Echo/include/chunk.h
+
+D:/LowLevel/Echo/main.c
+include/common.h
+D:/LowLevel/Echo/include/common.h
+include/chunk.h
+D:/LowLevel/Echo/include/chunk.h
+include/debug.h
+D:/LowLevel/Echo/include/debug.h
+

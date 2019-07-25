@@ -149,6 +149,33 @@ chunk.c.s:
 	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/chunk.c.s
 .PHONY : chunk.c.s
 
+debug.obj: debug.c.obj
+
+.PHONY : debug.obj
+
+# target to build an object file
+debug.c.obj:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/debug.c.obj
+.PHONY : debug.c.obj
+
+debug.i: debug.c.i
+
+.PHONY : debug.i
+
+# target to preprocess a source file
+debug.c.i:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/debug.c.i
+.PHONY : debug.c.i
+
+debug.s: debug.c.s
+
+.PHONY : debug.s
+
+# target to generate assembly for a file
+debug.c.s:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/debug.c.s
+.PHONY : debug.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -215,6 +242,9 @@ help:
 	@echo ... chunk.obj
 	@echo ... chunk.i
 	@echo ... chunk.s
+	@echo ... debug.obj
+	@echo ... debug.i
+	@echo ... debug.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

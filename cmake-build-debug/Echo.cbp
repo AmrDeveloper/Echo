@@ -79,10 +79,16 @@
 		<Unit filename="D:/LowLevel/Echo/chunk.c">
 			<Option target="Echo"/>
 		</Unit>
+		<Unit filename="D:/LowLevel/Echo/debug.c">
+			<Option target="Echo"/>
+		</Unit>
 		<Unit filename="D:/LowLevel/Echo/include/chunk.h">
 			<Option target="Echo"/>
 		</Unit>
 		<Unit filename="D:/LowLevel/Echo/include/common.h">
+			<Option target="Echo"/>
+		</Unit>
+		<Unit filename="D:/LowLevel/Echo/include/debug.h">
 			<Option target="Echo"/>
 		</Unit>
 		<Unit filename="D:/LowLevel/Echo/include/memory.h">
