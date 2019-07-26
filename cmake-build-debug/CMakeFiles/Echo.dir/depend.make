@@ -13,11 +13,19 @@ CMakeFiles/Echo.dir/debug.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/debug.c.obj: ../include/debug.h
 CMakeFiles/Echo.dir/debug.c.obj: ../include/value.h
 
+CMakeFiles/Echo.dir/echo-vm.c.obj: ../echo-vm.c
+CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/chunk.h
+CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/common.h
+CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/debug.h
+CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/value.h
+CMakeFiles/Echo.dir/echo-vm.c.obj: ../vm/echo-vm.h
+
 CMakeFiles/Echo.dir/main.c.obj: ../include/chunk.h
 CMakeFiles/Echo.dir/main.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/main.c.obj: ../include/debug.h
 CMakeFiles/Echo.dir/main.c.obj: ../include/value.h
 CMakeFiles/Echo.dir/main.c.obj: ../main.c
+CMakeFiles/Echo.dir/main.c.obj: ../vm/echo-vm.h
 
 CMakeFiles/Echo.dir/memory.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/memory.c.obj: ../include/memory.h

@@ -2,7 +2,11 @@
 #include "include/chunk.h"
 #include "include/debug.h"
 
+#include "vm/echo-vm.h"
+
 int main() {
+    initVM();
+
     Chunk chunk;
     initChunk(&chunk);
 
@@ -12,6 +16,10 @@ int main() {
 
     writeChunk(&chunk, OP_RETURN, 123);
     disassembleChunk(&chunk, "test chunk");
+
+    interpret(&chunk);
+
     freeChunk(&chunk);
+    freeVM();
     return 0;
 }

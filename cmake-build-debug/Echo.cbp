@@ -82,6 +82,9 @@
 		<Unit filename="D:/LowLevel/Echo/debug.c">
 			<Option target="Echo"/>
 		</Unit>
+		<Unit filename="D:/LowLevel/Echo/echo-vm.c">
+			<Option target="Echo"/>
+		</Unit>
 		<Unit filename="D:/LowLevel/Echo/include/chunk.h">
 			<Option target="Echo"/>
 		</Unit>

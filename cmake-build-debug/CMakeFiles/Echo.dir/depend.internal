@@ -13,12 +13,20 @@ CMakeFiles/Echo.dir/debug.c.obj
  D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/debug.h
  D:/LowLevel/Echo/include/value.h
+CMakeFiles/Echo.dir/echo-vm.c.obj
+ D:/LowLevel/Echo/echo-vm.c
+ D:/LowLevel/Echo/include/chunk.h
+ D:/LowLevel/Echo/include/common.h
+ D:/LowLevel/Echo/include/debug.h
+ D:/LowLevel/Echo/include/value.h
+ D:/LowLevel/Echo/vm/echo-vm.h
 CMakeFiles/Echo.dir/main.c.obj
  D:/LowLevel/Echo/include/chunk.h
  D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/debug.h
  D:/LowLevel/Echo/include/value.h
  D:/LowLevel/Echo/main.c
+ D:/LowLevel/Echo/vm/echo-vm.h
 CMakeFiles/Echo.dir/memory.c.obj
  D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/memory.h

@@ -176,6 +176,33 @@ debug.c.s:
 	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/debug.c.s
 .PHONY : debug.c.s
 
+echo-vm.obj: echo-vm.c.obj
+
+.PHONY : echo-vm.obj
+
+# target to build an object file
+echo-vm.c.obj:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/echo-vm.c.obj
+.PHONY : echo-vm.c.obj
+
+echo-vm.i: echo-vm.c.i
+
+.PHONY : echo-vm.i
+
+# target to preprocess a source file
+echo-vm.c.i:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/echo-vm.c.i
+.PHONY : echo-vm.c.i
+
+echo-vm.s: echo-vm.c.s
+
+.PHONY : echo-vm.s
+
+# target to generate assembly for a file
+echo-vm.c.s:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/echo-vm.c.s
+.PHONY : echo-vm.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -272,6 +299,9 @@ help:
 	@echo ... debug.obj
 	@echo ... debug.i
 	@echo ... debug.s
+	@echo ... echo-vm.obj
+	@echo ... echo-vm.i
+	@echo ... echo-vm.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
