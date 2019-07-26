@@ -6,17 +6,25 @@ CMakeFiles/Echo.dir/chunk.c.obj
  D:/LowLevel/Echo/include/chunk.h
  D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/memory.h
+ D:/LowLevel/Echo/include/value.h
 CMakeFiles/Echo.dir/debug.c.obj
  D:/LowLevel/Echo/debug.c
  D:/LowLevel/Echo/include/chunk.h
  D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/debug.h
+ D:/LowLevel/Echo/include/value.h
 CMakeFiles/Echo.dir/main.c.obj
  D:/LowLevel/Echo/include/chunk.h
  D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/debug.h
+ D:/LowLevel/Echo/include/value.h
  D:/LowLevel/Echo/main.c
 CMakeFiles/Echo.dir/memory.c.obj
  D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/memory.h
  D:/LowLevel/Echo/memory.c
+CMakeFiles/Echo.dir/value.c.obj
+ D:/LowLevel/Echo/include/common.h
+ D:/LowLevel/Echo/include/memory.h
+ D:/LowLevel/Echo/include/value.h
+ D:/LowLevel/Echo/value.c

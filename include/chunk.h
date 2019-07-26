@@ -11,7 +11,8 @@
 //each instruction has a one-byte operation code (OP)
 //This enum represent type of operation code
 typedef enum {
-    OP_RETURN,
+    OP_CONSTANT,
+    OP_RETURN
 } OpCode;
 
 //A dynamic array of instructions
