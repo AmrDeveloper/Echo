@@ -79,6 +79,9 @@
 		<Unit filename="D:/LowLevel/Echo/chunk.c">
 			<Option target="Echo"/>
 		</Unit>
+		<Unit filename="D:/LowLevel/Echo/compiler.c">
+			<Option target="Echo"/>
+		</Unit>
 		<Unit filename="D:/LowLevel/Echo/debug.c">
 			<Option target="Echo"/>
 		</Unit>
@@ -91,10 +94,16 @@
 		<Unit filename="D:/LowLevel/Echo/include/common.h">
 			<Option target="Echo"/>
 		</Unit>
+		<Unit filename="D:/LowLevel/Echo/include/compiler.h">
+			<Option target="Echo"/>
+		</Unit>
 		<Unit filename="D:/LowLevel/Echo/include/debug.h">
 			<Option target="Echo"/>
 		</Unit>
 		<Unit filename="D:/LowLevel/Echo/include/memory.h">
+			<Option target="Echo"/>
+		</Unit>
+		<Unit filename="D:/LowLevel/Echo/include/scanner.h">
 			<Option target="Echo"/>
 		</Unit>
 		<Unit filename="D:/LowLevel/Echo/include/value.h">
@@ -104,6 +113,9 @@
 			<Option target="Echo"/>
 		</Unit>
 		<Unit filename="D:/LowLevel/Echo/memory.c">
+			<Option target="Echo"/>
+		</Unit>
+		<Unit filename="D:/LowLevel/Echo/scanner.c">
 			<Option target="Echo"/>
 		</Unit>
 		<Unit filename="D:/LowLevel/Echo/value.c">

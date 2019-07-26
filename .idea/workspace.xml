@@ -12,10 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b66cda11-a07a-40f6-bf68-cc45578cf656" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/debug.c" beforeDir="false" afterPath="$PROJECT_DIR$/debug.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Echo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Echo.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/echo-vm.c" beforeDir="false" afterPath="$PROJECT_DIR$/echo-vm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/chunk.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/echo-vm.h" beforeDir="false" afterPath="$PROJECT_DIR$/vm/echo-vm.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,41 +43,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echo-vm.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#48#71#0" expanded="true" />
-                <element signature="e#183#217#0" />
-                <element signature="e#219#237#0" />
-                <element signature="e#239#309#0" />
-                <element signature="e#311#369#0" />
-                <element signature="e#371#425#0" />
-                <element signature="e#427#1941#0" />
-                <element signature="e#1084#1195#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#213#248#0" />
+                <element signature="e#250#268#0" />
+                <element signature="e#270#341#0" />
+                <element signature="e#343#402#0" />
+                <element signature="e#404#460#0" />
+                <element signature="e#462#1993#0" />
+                <element signature="e#1995#2090#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/chunk.h">
+        <entry file="file://$PROJECT_DIR$/compiler.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="357">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
-                <element signature="e#91#110#0" expanded="true" />
+                <element signature="e#48#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/scanner.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scanner.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="762">
+              <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+              <folding>
+                <element signature="e#48#66#0" expanded="true" />
+                <element signature="e#154#226#0" />
+                <element signature="e#255#374#0" />
+                <element signature="e#376#502#0" />
+                <element signature="e#376#440#0" />
+                <element signature="e#376#438#0" />
+                <element signature="e#440#520#0" />
+                <element signature="e#522#573#0" />
+                <element signature="e#575#664#0" />
+                <element signature="e#440#664#0" />
+                <element signature="e#666#879#0" />
+                <element signature="e#964#1237#0" />
+                <element signature="e#1970#2268#0" />
+                <element signature="e#1970#2098#0" />
+                <element signature="e#1842#2159#0" />
+                <element signature="e#1776#2089#0" />
+                <element signature="e#964#1126#0" />
+                <element signature="e#987#2159#0" />
               </folding>
             </state>
           </provider>
@@ -92,11 +127,15 @@
         <option value="$PROJECT_DIR$/value.c" />
         <option value="$PROJECT_DIR$/chunk.c" />
         <option value="$PROJECT_DIR$/include/common.h" />
-        <option value="$PROJECT_DIR$/vm/echo-vm.h" />
-        <option value="$PROJECT_DIR$/include/chunk.h" />
-        <option value="$PROJECT_DIR$/echo-vm.c" />
         <option value="$PROJECT_DIR$/debug.c" />
+        <option value="$PROJECT_DIR$/include/chunk.h" />
         <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/vm/echo-vm.h" />
+        <option value="$PROJECT_DIR$/echo-vm.c" />
+        <option value="$PROJECT_DIR$/include/compiler.h" />
+        <option value="$PROJECT_DIR$/compiler.c" />
+        <option value="$PROJECT_DIR$/include/scanner.h" />
+        <option value="$PROJECT_DIR$/scanner.c" />
       </list>
     </option>
   </component>
@@ -124,11 +163,6 @@
               <item name="Echo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Echo" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Echo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Echo" type="462c0819:PsiDirectoryNode" />
-              <item name="vm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,12 +211,12 @@
       <workItem from="1563782364675" duration="2000000" />
       <workItem from="1564092636412" duration="5860000" />
       <workItem from="1564133225712" duration="4970000" />
-      <workItem from="1564145957832" duration="1400000" />
+      <workItem from="1564145957832" duration="5572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14230000" />
+    <option name="totallyTimeSpent" value="18402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
@@ -191,7 +225,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13349515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.2690992" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.2690992" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3295325" />
       <window_info anchor="bottom" id="CMake" order="2" weight="0.3295325" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3295325" />
@@ -202,7 +236,7 @@
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3295325" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -272,42 +306,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/common.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#93#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chunk.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#48#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vm/echo-vm.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#95#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/chunk.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="e#91#110#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -326,29 +330,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/echo-vm.c">
+    <entry file="file://$PROJECT_DIR$/include/chunk.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#48#71#0" expanded="true" />
-            <element signature="e#183#217#0" />
-            <element signature="e#219#237#0" />
-            <element signature="e#239#309#0" />
-            <element signature="e#311#369#0" />
-            <element signature="e#371#425#0" />
-            <element signature="e#427#1941#0" />
-            <element signature="e#1084#1195#0" />
+            <element signature="e#91#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/common.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#93#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vm/echo-vm.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#95#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#169#386#0" />
+            <element signature="e#387#736#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/compiler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echo-vm.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#213#248#0" />
+            <element signature="e#250#268#0" />
+            <element signature="e#270#341#0" />
+            <element signature="e#343#402#0" />
+            <element signature="e#404#460#0" />
+            <element signature="e#462#1993#0" />
+            <element signature="e#1995#2090#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiler.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#48#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/scanner.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scanner.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+          <folding>
+            <element signature="e#48#66#0" expanded="true" />
+            <element signature="e#154#226#0" />
+            <element signature="e#255#374#0" />
+            <element signature="e#376#502#0" />
+            <element signature="e#376#440#0" />
+            <element signature="e#376#438#0" />
+            <element signature="e#440#520#0" />
+            <element signature="e#522#573#0" />
+            <element signature="e#575#664#0" />
+            <element signature="e#440#664#0" />
+            <element signature="e#666#879#0" />
+            <element signature="e#964#1237#0" />
+            <element signature="e#1970#2268#0" />
+            <element signature="e#1970#2098#0" />
+            <element signature="e#1842#2159#0" />
+            <element signature="e#1776#2089#0" />
+            <element signature="e#964#1126#0" />
+            <element signature="e#987#2159#0" />
           </folding>
         </state>
       </provider>

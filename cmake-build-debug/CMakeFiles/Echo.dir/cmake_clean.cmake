@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Echo.dir/debug.c.obj"
   "CMakeFiles/Echo.dir/value.c.obj"
   "CMakeFiles/Echo.dir/echo-vm.c.obj"
+  "CMakeFiles/Echo.dir/compiler.c.obj"
+  "CMakeFiles/Echo.dir/scanner.c.obj"
   "Echo.pdb"
   "Echo.exe"
   "Echo.exe.manifest"

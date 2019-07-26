@@ -149,6 +149,33 @@ chunk.c.s:
 	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/chunk.c.s
 .PHONY : chunk.c.s
 
+compiler.obj: compiler.c.obj
+
+.PHONY : compiler.obj
+
+# target to build an object file
+compiler.c.obj:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/compiler.c.obj
+.PHONY : compiler.c.obj
+
+compiler.i: compiler.c.i
+
+.PHONY : compiler.i
+
+# target to preprocess a source file
+compiler.c.i:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/compiler.c.i
+.PHONY : compiler.c.i
+
+compiler.s: compiler.c.s
+
+.PHONY : compiler.s
+
+# target to generate assembly for a file
+compiler.c.s:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/compiler.c.s
+.PHONY : compiler.c.s
+
 debug.obj: debug.c.obj
 
 .PHONY : debug.obj
@@ -257,6 +284,33 @@ memory.c.s:
 	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/memory.c.s
 .PHONY : memory.c.s
 
+scanner.obj: scanner.c.obj
+
+.PHONY : scanner.obj
+
+# target to build an object file
+scanner.c.obj:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/scanner.c.obj
+.PHONY : scanner.c.obj
+
+scanner.i: scanner.c.i
+
+.PHONY : scanner.i
+
+# target to preprocess a source file
+scanner.c.i:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/scanner.c.i
+.PHONY : scanner.c.i
+
+scanner.s: scanner.c.s
+
+.PHONY : scanner.s
+
+# target to generate assembly for a file
+scanner.c.s:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/scanner.c.s
+.PHONY : scanner.c.s
+
 value.obj: value.c.obj
 
 .PHONY : value.obj
@@ -296,6 +350,9 @@ help:
 	@echo ... chunk.obj
 	@echo ... chunk.i
 	@echo ... chunk.s
+	@echo ... compiler.obj
+	@echo ... compiler.i
+	@echo ... compiler.s
 	@echo ... debug.obj
 	@echo ... debug.i
 	@echo ... debug.s
@@ -308,6 +365,9 @@ help:
 	@echo ... memory.obj
 	@echo ... memory.i
 	@echo ... memory.s
+	@echo ... scanner.obj
+	@echo ... scanner.i
+	@echo ... scanner.s
 	@echo ... value.obj
 	@echo ... value.i
 	@echo ... value.s
