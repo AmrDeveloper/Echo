@@ -6,6 +6,9 @@
 #define ECHO_ECHO_VM_H
 
 #include "../include/chunk.h"
+#include "../include/value.h"
+
+#define STACK_MAX_SIZE 256
 
 /**
  * struct to represent the Virtual Machine
@@ -13,6 +16,8 @@
 typedef struct {
     Chunk *chunk;
     uint8_t* ip;
+    Value stack[STACK_MAX_SIZE];
+    Value *stackTop;
 } VM;
 
 typedef enum {
@@ -24,6 +29,10 @@ typedef enum {
 void initVM();
 
 void freeVM();
+
+void push(Value value);
+
+Value pop();
 
 InterpretResult interpret(Chunk* chunk);
 #endif
