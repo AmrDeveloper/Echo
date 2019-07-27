@@ -5,6 +5,8 @@
 #ifndef ECHO_COMPILER_H
 #define ECHO_COMPILER_H
 
-void compile(const char* source);
+#include "chunk.h"
+
+bool compile(const char* source,Chunk* stack);
 
 #endif

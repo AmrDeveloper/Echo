@@ -9,8 +9,12 @@ CMakeFiles/Echo.dir/chunk.c.obj
  D:/LowLevel/Echo/include/value.h
 CMakeFiles/Echo.dir/compiler.c.obj
  D:/LowLevel/Echo/compiler.c
+ D:/LowLevel/Echo/include/chunk.h
+ D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/compiler.h
+ D:/LowLevel/Echo/include/debug.h
  D:/LowLevel/Echo/include/scanner.h
+ D:/LowLevel/Echo/include/value.h
 CMakeFiles/Echo.dir/debug.c.obj
  D:/LowLevel/Echo/debug.c
  D:/LowLevel/Echo/include/chunk.h
