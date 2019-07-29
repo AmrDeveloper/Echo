@@ -6,6 +6,8 @@
 #define ECHO_COMPILER_H
 
 #include "chunk.h"
+#include "object.h"
+#include "../vm/echo-vm.h"
 
 bool compile(const char* source,Chunk* stack);
 

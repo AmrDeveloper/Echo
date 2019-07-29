@@ -50,13 +50,20 @@ static char peekNext() {
     return scanner.current[1];
 }
 
+static bool match(char expected) {
+    if (isAtEnd()) return false;
+    if (*scanner.current != expected) return false;
+
+    scanner.current++;
+    return true;
+}
+
 static Token makeToken(TokenType type) {
     Token token;
     token.type = type;
     token.start = scanner.start;
     token.length = (int)(scanner.current - scanner.start);
     token.line = scanner.line;
-
     return token;
 }
 
@@ -113,6 +120,7 @@ static TokenType identifierType()
         case 'a': return checkKeyword(1, 2, "nd", TOKEN_AND);
         case 'c': return checkKeyword(1, 4, "lass", TOKEN_CLASS);
         case 'e': return checkKeyword(1, 3, "lse", TOKEN_ELSE);
+
         case 'f':
             if (scanner.current - scanner.start > 1) {
                 switch (scanner.start[1]) {
@@ -128,6 +136,7 @@ static TokenType identifierType()
         case 'p': return checkKeyword(1, 4, "rint", TOKEN_PRINT);
         case 'r': return checkKeyword(1, 5, "eturn", TOKEN_RETURN);
         case 's': return checkKeyword(1, 4, "uper", TOKEN_SUPER);
+
         case 't':
             if (scanner.current - scanner.start > 1) {
                 switch (scanner.start[1]) {
@@ -136,14 +145,18 @@ static TokenType identifierType()
                 }
             }
             break;
+
         case 'v': return checkKeyword(1, 2, "ar", TOKEN_VAR);
         case 'w': return checkKeyword(1, 4, "hile", TOKEN_WHILE);
     }
+
+//< keywords
     return TOKEN_IDENTIFIER;
 }
 
 static Token scanIdentifier() {
     while (isAlpha(peek()) || isDigit(peek())) advance();
+
     return makeToken(identifierType());
 }
 
@@ -174,14 +187,6 @@ static Token scanString() {
     return makeToken(TOKEN_STRING);
 }
 
-static bool match(char expected) {
-    if (isAtEnd()) return false;
-    if (*scanner.current != expected) return false;
-
-    scanner.current++;
-    return true;
-}
-
 Token scanToken() {
     skipWhitespace();
 
@@ -190,7 +195,9 @@ Token scanToken() {
     if (isAtEnd()) return makeToken(TOKEN_EOF);
 
     char c = advance();
+
     if (isAlpha(c)) return scanIdentifier();
+
     if (isDigit(c)) return scanNumber();
 
     switch (c) {
@@ -206,10 +213,12 @@ Token scanToken() {
         case '+': return makeToken(TOKEN_PLUS);
         case '/': return makeToken(TOKEN_SLASH);
         case '*': return makeToken(TOKEN_STAR);
+
         case '!': return makeToken(match('=') ? TOKEN_BANG_EQUAL : TOKEN_BANG);
         case '=': return makeToken(match('=') ? TOKEN_EQUAL_EQUAL : TOKEN_EQUAL);
         case '<': return makeToken(match('=') ? TOKEN_LESS_EQUAL : TOKEN_LESS);
         case '>': return makeToken(match('=') ? TOKEN_GREATER_EQUAL : TOKEN_GREATER);
+
         case '"': return scanString();
     }
 

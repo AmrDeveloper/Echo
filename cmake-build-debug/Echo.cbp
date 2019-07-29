@@ -103,7 +103,13 @@
 		<Unit filename="D:/LowLevel/Echo/include/memory.h">
 			<Option target="Echo"/>
 		</Unit>
+		<Unit filename="D:/LowLevel/Echo/include/object.h">
+			<Option target="Echo"/>
+		</Unit>
 		<Unit filename="D:/LowLevel/Echo/include/scanner.h">
+			<Option target="Echo"/>
+		</Unit>
+		<Unit filename="D:/LowLevel/Echo/include/table.h">
 			<Option target="Echo"/>
 		</Unit>
 		<Unit filename="D:/LowLevel/Echo/include/value.h">
@@ -115,7 +121,13 @@
 		<Unit filename="D:/LowLevel/Echo/memory.c">
 			<Option target="Echo"/>
 		</Unit>
+		<Unit filename="D:/LowLevel/Echo/object.c">
+			<Option target="Echo"/>
+		</Unit>
 		<Unit filename="D:/LowLevel/Echo/scanner.c">
+			<Option target="Echo"/>
+		</Unit>
+		<Unit filename="D:/LowLevel/Echo/table.c">
 			<Option target="Echo"/>
 		</Unit>
 		<Unit filename="D:/LowLevel/Echo/value.c">

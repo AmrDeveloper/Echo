@@ -284,6 +284,33 @@ memory.c.s:
 	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/memory.c.s
 .PHONY : memory.c.s
 
+object.obj: object.c.obj
+
+.PHONY : object.obj
+
+# target to build an object file
+object.c.obj:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/object.c.obj
+.PHONY : object.c.obj
+
+object.i: object.c.i
+
+.PHONY : object.i
+
+# target to preprocess a source file
+object.c.i:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/object.c.i
+.PHONY : object.c.i
+
+object.s: object.c.s
+
+.PHONY : object.s
+
+# target to generate assembly for a file
+object.c.s:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/object.c.s
+.PHONY : object.c.s
+
 scanner.obj: scanner.c.obj
 
 .PHONY : scanner.obj
@@ -310,6 +337,33 @@ scanner.s: scanner.c.s
 scanner.c.s:
 	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/scanner.c.s
 .PHONY : scanner.c.s
+
+table.obj: table.c.obj
+
+.PHONY : table.obj
+
+# target to build an object file
+table.c.obj:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/table.c.obj
+.PHONY : table.c.obj
+
+table.i: table.c.i
+
+.PHONY : table.i
+
+# target to preprocess a source file
+table.c.i:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/table.c.i
+.PHONY : table.c.i
+
+table.s: table.c.s
+
+.PHONY : table.s
+
+# target to generate assembly for a file
+table.c.s:
+	$(MAKE) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/table.c.s
+.PHONY : table.c.s
 
 value.obj: value.c.obj
 
@@ -365,9 +419,15 @@ help:
 	@echo ... memory.obj
 	@echo ... memory.i
 	@echo ... memory.s
+	@echo ... object.obj
+	@echo ... object.i
+	@echo ... object.s
 	@echo ... scanner.obj
 	@echo ... scanner.i
 	@echo ... scanner.s
+	@echo ... table.obj
+	@echo ... table.i
+	@echo ... table.s
 	@echo ... value.obj
 	@echo ... value.i
 	@echo ... value.s

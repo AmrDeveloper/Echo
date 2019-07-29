@@ -7,6 +7,7 @@
 
 #include "../include/chunk.h"
 #include "../include/value.h"
+#include "../include/table.h"
 
 #define STACK_MAX_SIZE 256
 
@@ -18,6 +19,8 @@ typedef struct {
     uint8_t* ip;
     Value stack[STACK_MAX_SIZE];
     Value *stackTop;
+    Table strings;
+    Obj* objects;
 } VM;
 
 typedef enum {
@@ -35,5 +38,7 @@ void push(Value value);
 Value pop();
 
 InterpretResult interpret(const char* source);
+
+extern VM vm;
 
 #endif
