@@ -11,10 +11,16 @@ stdio.h
 -
 stdlib.h
 -
+string.h
+-
 include/compiler.h
 D:/LowLevel/Echo/include/compiler.h
 include/scanner.h
 D:/LowLevel/Echo/include/scanner.h
+include/memory.h
+D:/LowLevel/Echo/include/memory.h
+include/common.h
+D:/LowLevel/Echo/include/common.h
 include/debug.h
 D:/LowLevel/Echo/include/debug.h
 
@@ -43,6 +49,10 @@ D:/LowLevel/Echo/vm/echo-vm.h
 D:/LowLevel/Echo/include/debug.h
 chunk.h
 D:/LowLevel/Echo/include/chunk.h
+
+D:/LowLevel/Echo/include/memory.h
+object.h
+D:/LowLevel/Echo/include/object.h
 
 D:/LowLevel/Echo/include/object.h
 common.h

@@ -5,6 +5,8 @@
 #ifndef ECHO_MEMORY_H
 #define ECHO_MEMORY_H
 
+#include "object.h"
+
 #define ALLOCATE(type, count) \
     (type*)reallocate(NULL, 0, sizeof(type) * (count))
 

@@ -7,8 +7,8 @@
 #include "include/common.h"
 #include "include/memory.h"
 #include "include/value.h"
-#include "vm/echo-vm.h"
 #include "include/object.h"
+#include "vm/echo-vm.h"
 
 /**
 * Dynamic Memory Management function

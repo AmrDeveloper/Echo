@@ -5,6 +5,7 @@ CMakeFiles/Echo.dir/chunk.c.obj: ../chunk.c
 CMakeFiles/Echo.dir/chunk.c.obj: ../include/chunk.h
 CMakeFiles/Echo.dir/chunk.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/chunk.c.obj: ../include/memory.h
+CMakeFiles/Echo.dir/chunk.c.obj: ../include/object.h
 CMakeFiles/Echo.dir/chunk.c.obj: ../include/value.h
 
 CMakeFiles/Echo.dir/compiler.c.obj: ../compiler.c
@@ -12,6 +13,7 @@ CMakeFiles/Echo.dir/compiler.c.obj: ../include/chunk.h
 CMakeFiles/Echo.dir/compiler.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/compiler.c.obj: ../include/compiler.h
 CMakeFiles/Echo.dir/compiler.c.obj: ../include/debug.h
+CMakeFiles/Echo.dir/compiler.c.obj: ../include/memory.h
 CMakeFiles/Echo.dir/compiler.c.obj: ../include/object.h
 CMakeFiles/Echo.dir/compiler.c.obj: ../include/scanner.h
 CMakeFiles/Echo.dir/compiler.c.obj: ../include/table.h
