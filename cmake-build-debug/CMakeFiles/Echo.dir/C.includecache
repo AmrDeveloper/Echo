@@ -6,6 +6,30 @@
 
 #IncludeRegexTransform: 
 
+D:/LowLevel/Echo/compiler.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+include/compiler.h
+D:/LowLevel/Echo/include/compiler.h
+include/scanner.h
+D:/LowLevel/Echo/include/scanner.h
+include/memory.h
+D:/LowLevel/Echo/include/memory.h
+include/common.h
+D:/LowLevel/Echo/include/common.h
+include/debug.h
+D:/LowLevel/Echo/include/debug.h
+
+D:/LowLevel/Echo/include/chunk.h
+common.h
+D:/LowLevel/Echo/include/common.h
+value.h
+D:/LowLevel/Echo/include/value.h
+
 D:/LowLevel/Echo/include/common.h
 stdbool.h
 -
@@ -13,6 +37,18 @@ stddef.h
 -
 stdint.h
 -
+
+D:/LowLevel/Echo/include/compiler.h
+chunk.h
+D:/LowLevel/Echo/include/chunk.h
+object.h
+D:/LowLevel/Echo/include/object.h
+../vm/echo-vm.h
+D:/LowLevel/Echo/vm/echo-vm.h
+
+D:/LowLevel/Echo/include/debug.h
+chunk.h
+D:/LowLevel/Echo/include/chunk.h
 
 D:/LowLevel/Echo/include/memory.h
 object.h
@@ -24,6 +60,8 @@ D:/LowLevel/Echo/include/common.h
 value.h
 D:/LowLevel/Echo/include/value.h
 
+D:/LowLevel/Echo/include/scanner.h
+
 D:/LowLevel/Echo/include/table.h
 common.h
 D:/LowLevel/Echo/include/common.h
@@ -34,17 +72,11 @@ D:/LowLevel/Echo/include/value.h
 common.h
 D:/LowLevel/Echo/include/common.h
 
-D:/LowLevel/Echo/table.c
-stdlib.h
--
-string.h
--
-include/memory.h
-D:/LowLevel/Echo/include/memory.h
-include/object.h
-D:/LowLevel/Echo/include/object.h
-include/table.h
-D:/LowLevel/Echo/include/table.h
-include/value.h
+D:/LowLevel/Echo/vm/echo-vm.h
+../include/chunk.h
+D:/LowLevel/Echo/include/chunk.h
+../include/value.h
 D:/LowLevel/Echo/include/value.h
+../include/table.h
+D:/LowLevel/Echo/include/table.h
 

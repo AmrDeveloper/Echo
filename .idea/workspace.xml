@@ -12,7 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b66cda11-a07a-40f6-bf68-cc45578cf656" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/compiler.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/echo-vm.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/echo-vm.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/object.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/table.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler.c" beforeDir="false" afterPath="$PROJECT_DIR$/compiler.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/common.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +101,7 @@
       <workItem from="1564511734171" duration="592000" />
       <workItem from="1564533512838" duration="1492000" />
       <workItem from="1564667136346" duration="421000" />
-      <workItem from="1564667858594" duration="2713000" />
+      <workItem from="1564667858594" duration="4277000" />
     </task>
     <servers />
   </component>
