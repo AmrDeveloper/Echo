@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b66cda11-a07a-40f6-bf68-cc45578cf656" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.c" beforeDir="false" afterPath="$PROJECT_DIR$/table.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,9 +94,12 @@
       <workItem from="1564511734171" duration="592000" />
       <workItem from="1564533512838" duration="1492000" />
       <workItem from="1564667136346" duration="421000" />
-      <workItem from="1564667858594" duration="1540000" />
+      <workItem from="1564667858594" duration="2200000" />
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
