@@ -51,13 +51,20 @@ static Entry *findEntry(Entry *entries, int capacity, ObjString *key) {
 
 static void adjustCapacity(Table* table, int capacity) {
     Entry *entries = ALLOCATE(Entry, capacity);
-    table->count = 0;
     for (int i = 0; i < capacity; i++) {
-        Entry *entry = &table->entries[i];
-        if (entry->key == NULL) continue;
-
         entries[i].key = NULL;
         entries[i].value = NIL_VAL;
+    }
+
+    table->count = 0;
+
+    for (int i = 0; i < table->capacity; i++) {
+        Entry* entry = &table->entries[i];
+        if (entry->key == NULL) continue;
+
+        Entry* dest = findEntry(entries, capacity, entry->key);
+        dest->key = entry->key;
+        dest->value = entry->value;
         table->count++;
     }
 
