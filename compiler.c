@@ -522,11 +522,20 @@ static void ifStatement() {
     consume(TOKEN_RIGHT_PAREN, "Expect ')' after condition.");
 
     int thenJump = emitJump(OP_JUMP_IF_FALSE);
+    emitByte(OP_POP);
 
     //TODO : in future support multi line statement start with '{' and end body with '}'
     statement();
 
+    int elseJump = emitJump(OP_JUMP);
+
     patchJump(thenJump);
+    emitByte(OP_POP);
+
+    //Check if we have else branch
+    if (match(TOKEN_ELSE)) statement();
+
+    patchJump(elseJump);
 }
 
 static void printStatement() {
