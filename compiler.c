@@ -264,6 +264,7 @@ static void markInitialized() {
 
 static void defineVariable(uint8_t global) {
     if (current->scopeDepth > 0) {
+        markInitialized();
         return;
     }
     emitBytes(OP_DEFINE_GLOBAL, global);
@@ -281,7 +282,6 @@ static void andOperator(bool canAssign) {
 static void declareVariable() {
     // Global variables are implicitly declared.
     if (current->scopeDepth == 0) {
-        markInitialized();
         return;
     }
 
