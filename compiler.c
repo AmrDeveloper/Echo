@@ -227,14 +227,14 @@ static uint8_t identifierConstant(Token *name) {
     return makeConstant(OBJ_VAL(copyString(name->start, name->length)));
 }
 
-static bool identifiersEqual(Token* a, Token* b) {
+static bool identifiersEqual(Token *a, Token *b) {
     if (a->length != b->length) return false;
     return memcmp(a->start, b->start, a->length) == 0;
 }
 
-static int resolveLocal(Compiler* compiler, Token* name) {
+static int resolveLocal(Compiler *compiler, Token *name) {
     for (int i = compiler->localCount - 1; i >= 0; i--) {
-        Local* local = &compiler->locals[i];
+        Local *local = &compiler->locals[i];
         if (identifiersEqual(name, &local->name)) {
             if (local->depth == -1) {
                 error("Cannot read local variable in its own initializer.");
@@ -251,7 +251,7 @@ static void addLocal(Token name) {
         error("Too many local variables in function.");
         return;
     }
-    Local* local = &current->locals[current->localCount++];
+    Local *local = &current->locals[current->localCount++];
     local->name = name;
     local->depth = -1;
 }
@@ -263,7 +263,7 @@ static void markInitialized() {
 }
 
 static void defineVariable(uint8_t global) {
-    if(current->scopeDepth > 0){
+    if (current->scopeDepth > 0) {
         return;
     }
     emitBytes(OP_DEFINE_GLOBAL, global);
@@ -285,14 +285,14 @@ static void declareVariable() {
         return;
     }
 
-    Token* name = &parser.previous;
+    Token *name = &parser.previous;
 
     /**
      * Current scope is on the end of array so we looking backwards
      * until we stop on the first element -> the global scope
      */
     for (int i = current->localCount - 1; i >= 0; i--) {
-        Local* local = &current->locals[i];
+        Local *local = &current->locals[i];
         if (local->depth != -1 && local->depth < current->scopeDepth) {
             break;
         }
@@ -308,7 +308,7 @@ static void declareVariable() {
 static uint8_t parseVariable(const char *errorMessage) {
     consume(TOKEN_IDENTIFIER, errorMessage);
     declareVariable();
-    if(current->scopeDepth > 0) return 0;
+    if (current->scopeDepth > 0) return 0;
     return identifierConstant(&parser.previous);
 }
 
@@ -414,9 +414,9 @@ static void namedVariable(Token name, bool canAssign) {
 
     if (canAssign && match(TOKEN_EQUAL)) {
         expression();
-        emitBytes(setOp, (uint8_t)arg);
+        emitBytes(setOp, (uint8_t) arg);
     } else {
-        emitBytes(getOp, (uint8_t)arg);
+        emitBytes(getOp, (uint8_t) arg);
     }
 }
 
@@ -546,6 +546,65 @@ static void expressionStatement() {
     emitByte(OP_POP);
 }
 
+static void forStatement() {
+    beginScope();
+    consume(TOKEN_LEFT_PAREN, "Expect '(' after 'for'.");
+
+    /**
+     * Initializer clause
+     */
+    if (match(TOKEN_VAR)) {
+        varDeclaration();
+    } else if (match(TOKEN_SEMICOLON)) {
+        // No initializer.
+    } else {
+        expressionStatement();
+    }
+
+    int loopStart = currentChunk()->count;
+
+    /**
+     * Condition clause
+     */
+    int exitJump = -1;
+    if (!match(TOKEN_SEMICOLON)) {
+        expression();
+        consume(TOKEN_SEMICOLON, "Expect ';' after loop condition.");
+
+        // Jump out of the loop if the condition is false.
+        exitJump = emitJump(OP_JUMP_IF_FALSE);
+        emitByte(OP_POP); // Condition.
+    }
+
+    /**
+     * Increment clause
+     */
+    if (!match(TOKEN_RIGHT_PAREN)) {
+        int bodyJump = emitJump(OP_JUMP);
+
+        int incrementStart = currentChunk()->count;
+        expression();
+        emitByte(OP_POP);
+        consume(TOKEN_RIGHT_PAREN, "Expect ')' after for clauses.");
+
+        emitLoop(loopStart);
+        loopStart = incrementStart;
+        patchJump(bodyJump);
+    }
+
+    statement();
+
+    emitLoop(loopStart);
+
+    //POP condition from stack
+    if (exitJump != -1) {
+        patchJump(exitJump);
+        emitByte(OP_POP);
+    }
+
+    endScope();
+}
+
 static void ifStatement() {
     consume(TOKEN_LEFT_PAREN, "Expect '(' after 'if'.");
     expression();
@@ -630,11 +689,13 @@ static void declaration() {
 static void statement() {
     if (match(TOKEN_PRINT)) {
         printStatement();
-    }else if (match(TOKEN_IF)) {
+    } else if (match(TOKEN_FOR)) {
+        forStatement();
+    } else if (match(TOKEN_IF)) {
         ifStatement();
-    }else if (match(TOKEN_WHILE)) {
+    } else if (match(TOKEN_WHILE)) {
         whileStatement();
-    }  else if (match(TOKEN_LEFT_BRACE)) {
+    } else if (match(TOKEN_LEFT_BRACE)) {
         beginScope();
         block();
         endScope();
