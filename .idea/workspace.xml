@@ -13,10 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b66cda11-a07a-40f6-bf68-cc45578cf656" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler.c" beforeDir="false" afterPath="$PROJECT_DIR$/compiler.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.c" beforeDir="false" afterPath="$PROJECT_DIR$/debug.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echo-vm.c" beforeDir="false" afterPath="$PROJECT_DIR$/echo-vm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/chunk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +98,8 @@
       <workItem from="1564667858594" duration="4388000" />
       <workItem from="1564743756438" duration="3923000" />
       <workItem from="1564755026853" duration="5440000" />
-      <workItem from="1564786154364" duration="1236000" />
+      <workItem from="1564786154364" duration="2270000" />
+      <workItem from="1564830855260" duration="29000" />
     </task>
     <servers />
   </component>
