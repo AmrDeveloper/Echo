@@ -4,7 +4,6 @@
 
 #include <stdlib.h>
 
-#include "include/common.h"
 #include "include/memory.h"
 #include "include/value.h"
 #include "include/object.h"
@@ -28,6 +27,13 @@ void* reallocate(void* oldArray, size_t oldSize, size_t newSize){
 
 static void freeObject(Obj* object) {
     switch (object->type) {
+        case OBJ_FUNCTION:{
+            ObjFunction* function = (ObjFunction*)object;
+            freeChunk(&function->chunk);
+            FREE(ObjFunction, object);
+            //TODO : for now free name ObjString but later GC will do that
+            break;
+        }
         case OBJ_STRING: {
             ObjString* string = (ObjString*)object;
             FREE_ARRAY(char, string->chars, string->length + 1);

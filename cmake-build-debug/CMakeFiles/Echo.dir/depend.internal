@@ -41,6 +41,7 @@ CMakeFiles/Echo.dir/main.c.obj
  D:/LowLevel/Echo/include/chunk.h
  D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/debug.h
+ D:/LowLevel/Echo/include/object.h
  D:/LowLevel/Echo/include/table.h
  D:/LowLevel/Echo/include/value.h
  D:/LowLevel/Echo/main.c
@@ -68,6 +69,7 @@ CMakeFiles/Echo.dir/scanner.c.obj
  D:/LowLevel/Echo/include/scanner.h
  D:/LowLevel/Echo/scanner.c
 CMakeFiles/Echo.dir/table.c.obj
+ D:/LowLevel/Echo/include/chunk.h
  D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/memory.h
  D:/LowLevel/Echo/include/object.h
@@ -75,6 +77,7 @@ CMakeFiles/Echo.dir/table.c.obj
  D:/LowLevel/Echo/include/value.h
  D:/LowLevel/Echo/table.c
 CMakeFiles/Echo.dir/value.c.obj
+ D:/LowLevel/Echo/include/chunk.h
  D:/LowLevel/Echo/include/common.h
  D:/LowLevel/Echo/include/memory.h
  D:/LowLevel/Echo/include/object.h

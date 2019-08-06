@@ -9,6 +9,6 @@
 #include "object.h"
 #include "../vm/echo-vm.h"
 
-bool compile(const char* source,Chunk* stack);
+ObjFunction* compile(const char* source);
 
 #endif

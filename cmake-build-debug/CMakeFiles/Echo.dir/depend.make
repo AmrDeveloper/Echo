@@ -40,6 +40,7 @@ CMakeFiles/Echo.dir/echo-vm.c.obj: ../vm/echo-vm.h
 CMakeFiles/Echo.dir/main.c.obj: ../include/chunk.h
 CMakeFiles/Echo.dir/main.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/main.c.obj: ../include/debug.h
+CMakeFiles/Echo.dir/main.c.obj: ../include/object.h
 CMakeFiles/Echo.dir/main.c.obj: ../include/table.h
 CMakeFiles/Echo.dir/main.c.obj: ../include/value.h
 CMakeFiles/Echo.dir/main.c.obj: ../main.c
@@ -67,6 +68,7 @@ CMakeFiles/Echo.dir/scanner.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/scanner.c.obj: ../include/scanner.h
 CMakeFiles/Echo.dir/scanner.c.obj: ../scanner.c
 
+CMakeFiles/Echo.dir/table.c.obj: ../include/chunk.h
 CMakeFiles/Echo.dir/table.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/table.c.obj: ../include/memory.h
 CMakeFiles/Echo.dir/table.c.obj: ../include/object.h
@@ -74,6 +76,7 @@ CMakeFiles/Echo.dir/table.c.obj: ../include/table.h
 CMakeFiles/Echo.dir/table.c.obj: ../include/value.h
 CMakeFiles/Echo.dir/table.c.obj: ../table.c
 
+CMakeFiles/Echo.dir/value.c.obj: ../include/chunk.h
 CMakeFiles/Echo.dir/value.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/value.c.obj: ../include/memory.h
 CMakeFiles/Echo.dir/value.c.obj: ../include/object.h
