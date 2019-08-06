@@ -34,6 +34,10 @@ static void freeObject(Obj* object) {
             //TODO : for now free name ObjString but later GC will do that
             break;
         }
+        case OBJ_NATIVE: {
+            FREE(ObjNative, object);
+            break;
+        }
         case OBJ_STRING: {
             ObjString* string = (ObjString*)object;
             FREE_ARRAY(char, string->chars, string->length + 1);
