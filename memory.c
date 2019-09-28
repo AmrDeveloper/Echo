@@ -27,6 +27,13 @@ void* reallocate(void* oldArray, size_t oldSize, size_t newSize){
 
 static void freeObject(Obj* object) {
     switch (object->type) {
+        case OBJ_CLOSURE:{
+            //Free the Closure not the function itself
+            //The Garbage Collector  will free in Future
+            ObjClosure* closure = (ObjClosure*) object;
+            FREE(ObjClosure,closure);
+            break;
+        }
         case OBJ_FUNCTION:{
             ObjFunction* function = (ObjFunction*)object;
             freeChunk(&function->chunk);

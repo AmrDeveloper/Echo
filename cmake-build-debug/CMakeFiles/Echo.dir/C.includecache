@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/LowLevel/Echo/chunk.c
+D:/Software/LowLevel/Echo/chunk.c
 include/value.h
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 include/chunk.h
-D:/LowLevel/Echo/include/chunk.h
+D:/Software/LowLevel/Echo/include/chunk.h
 include/memory.h
-D:/LowLevel/Echo/include/memory.h
+D:/Software/LowLevel/Echo/include/memory.h
 
-D:/LowLevel/Echo/compiler.c
+D:/Software/LowLevel/Echo/compiler.c
 stdio.h
 -
 stdlib.h
@@ -22,33 +22,33 @@ stdlib.h
 string.h
 -
 include/compiler.h
-D:/LowLevel/Echo/include/compiler.h
+D:/Software/LowLevel/Echo/include/compiler.h
 include/scanner.h
-D:/LowLevel/Echo/include/scanner.h
+D:/Software/LowLevel/Echo/include/scanner.h
 include/memory.h
-D:/LowLevel/Echo/include/memory.h
+D:/Software/LowLevel/Echo/include/memory.h
 include/common.h
-D:/LowLevel/Echo/include/common.h
+D:/Software/LowLevel/Echo/include/common.h
 include/debug.h
-D:/LowLevel/Echo/include/debug.h
+D:/Software/LowLevel/Echo/include/debug.h
 
-D:/LowLevel/Echo/debug.c
+D:/Software/LowLevel/Echo/debug.c
 stdio.h
 -
 include/debug.h
-D:/LowLevel/Echo/include/debug.h
+D:/Software/LowLevel/Echo/include/debug.h
 include/value.h
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 
-D:/LowLevel/Echo/echo-vm.c
+D:/Software/LowLevel/Echo/echo-vm.c
 vm/echo-vm.h
-D:/LowLevel/Echo/vm/echo-vm.h
+D:/Software/LowLevel/Echo/vm/echo-vm.h
 include/debug.h
-D:/LowLevel/Echo/include/debug.h
+D:/Software/LowLevel/Echo/include/debug.h
 include/compiler.h
-D:/LowLevel/Echo/include/compiler.h
+D:/Software/LowLevel/Echo/include/compiler.h
 include/memory.h
-D:/LowLevel/Echo/include/memory.h
+D:/Software/LowLevel/Echo/include/memory.h
 stdio.h
 -
 stdarg.h
@@ -58,13 +58,13 @@ string.h
 time.h
 -
 
-D:/LowLevel/Echo/include/chunk.h
+D:/Software/LowLevel/Echo/include/chunk.h
 common.h
-D:/LowLevel/Echo/include/common.h
+D:/Software/LowLevel/Echo/include/common.h
 value.h
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 
-D:/LowLevel/Echo/include/common.h
+D:/Software/LowLevel/Echo/include/common.h
 stdbool.h
 -
 stddef.h
@@ -72,49 +72,49 @@ stddef.h
 stdint.h
 -
 
-D:/LowLevel/Echo/include/compiler.h
+D:/Software/LowLevel/Echo/include/compiler.h
 chunk.h
-D:/LowLevel/Echo/include/chunk.h
+D:/Software/LowLevel/Echo/include/chunk.h
 object.h
-D:/LowLevel/Echo/include/object.h
+D:/Software/LowLevel/Echo/include/object.h
 ../vm/echo-vm.h
-D:/LowLevel/Echo/vm/echo-vm.h
+D:/Software/LowLevel/Echo/vm/echo-vm.h
 
-D:/LowLevel/Echo/include/debug.h
+D:/Software/LowLevel/Echo/include/debug.h
 chunk.h
-D:/LowLevel/Echo/include/chunk.h
+D:/Software/LowLevel/Echo/include/chunk.h
 
-D:/LowLevel/Echo/include/memory.h
+D:/Software/LowLevel/Echo/include/memory.h
 object.h
-D:/LowLevel/Echo/include/object.h
+D:/Software/LowLevel/Echo/include/object.h
 
-D:/LowLevel/Echo/include/object.h
+D:/Software/LowLevel/Echo/include/object.h
 common.h
-D:/LowLevel/Echo/include/common.h
+D:/Software/LowLevel/Echo/include/common.h
 value.h
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 chunk.h
-D:/LowLevel/Echo/include/chunk.h
+D:/Software/LowLevel/Echo/include/chunk.h
 
-D:/LowLevel/Echo/include/scanner.h
+D:/Software/LowLevel/Echo/include/scanner.h
 
-D:/LowLevel/Echo/include/table.h
+D:/Software/LowLevel/Echo/include/table.h
 common.h
-D:/LowLevel/Echo/include/common.h
+D:/Software/LowLevel/Echo/include/common.h
 value.h
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 common.h
-D:/LowLevel/Echo/include/common.h
+D:/Software/LowLevel/Echo/include/common.h
 
-D:/LowLevel/Echo/main.c
+D:/Software/LowLevel/Echo/main.c
 include/common.h
-D:/LowLevel/Echo/include/common.h
+D:/Software/LowLevel/Echo/include/common.h
 include/chunk.h
-D:/LowLevel/Echo/include/chunk.h
+D:/Software/LowLevel/Echo/include/chunk.h
 include/debug.h
-D:/LowLevel/Echo/include/debug.h
+D:/Software/LowLevel/Echo/include/debug.h
 stdio.h
 -
 stdlib.h
@@ -122,77 +122,77 @@ stdlib.h
 string.h
 -
 vm/echo-vm.h
-D:/LowLevel/Echo/vm/echo-vm.h
+D:/Software/LowLevel/Echo/vm/echo-vm.h
 
-D:/LowLevel/Echo/memory.c
+D:/Software/LowLevel/Echo/memory.c
 stdlib.h
 -
 include/memory.h
-D:/LowLevel/Echo/include/memory.h
+D:/Software/LowLevel/Echo/include/memory.h
 include/value.h
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 include/object.h
-D:/LowLevel/Echo/include/object.h
+D:/Software/LowLevel/Echo/include/object.h
 vm/echo-vm.h
-D:/LowLevel/Echo/vm/echo-vm.h
+D:/Software/LowLevel/Echo/vm/echo-vm.h
 
-D:/LowLevel/Echo/object.c
+D:/Software/LowLevel/Echo/object.c
 stdio.h
 -
 string.h
 -
 include/memory.h
-D:/LowLevel/Echo/include/memory.h
+D:/Software/LowLevel/Echo/include/memory.h
 include/object.h
-D:/LowLevel/Echo/include/object.h
+D:/Software/LowLevel/Echo/include/object.h
 include/value.h
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 include/table.h
-D:/LowLevel/Echo/include/table.h
+D:/Software/LowLevel/Echo/include/table.h
 vm/echo-vm.h
-D:/LowLevel/Echo/vm/echo-vm.h
+D:/Software/LowLevel/Echo/vm/echo-vm.h
 
-D:/LowLevel/Echo/scanner.c
+D:/Software/LowLevel/Echo/scanner.c
 stdio.h
 -
 string.h
 -
 include/common.h
-D:/LowLevel/Echo/include/common.h
+D:/Software/LowLevel/Echo/include/common.h
 include/scanner.h
-D:/LowLevel/Echo/include/scanner.h
+D:/Software/LowLevel/Echo/include/scanner.h
 
-D:/LowLevel/Echo/table.c
+D:/Software/LowLevel/Echo/table.c
 stdlib.h
 -
 string.h
 -
 include/memory.h
-D:/LowLevel/Echo/include/memory.h
+D:/Software/LowLevel/Echo/include/memory.h
 include/object.h
-D:/LowLevel/Echo/include/object.h
+D:/Software/LowLevel/Echo/include/object.h
 include/table.h
-D:/LowLevel/Echo/include/table.h
+D:/Software/LowLevel/Echo/include/table.h
 include/value.h
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 
-D:/LowLevel/Echo/value.c
+D:/Software/LowLevel/Echo/value.c
 include/value.h
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 include/memory.h
-D:/LowLevel/Echo/include/memory.h
+D:/Software/LowLevel/Echo/include/memory.h
 include/object.h
-D:/LowLevel/Echo/include/object.h
+D:/Software/LowLevel/Echo/include/object.h
 stdio.h
 -
 string.h
 -
 
-D:/LowLevel/Echo/vm/echo-vm.h
+D:/Software/LowLevel/Echo/vm/echo-vm.h
 ../include/value.h
-D:/LowLevel/Echo/include/value.h
+D:/Software/LowLevel/Echo/include/value.h
 ../include/table.h
-D:/LowLevel/Echo/include/table.h
+D:/Software/LowLevel/Echo/include/table.h
 ../include/object.h
-D:/LowLevel/Echo/include/object.h
+D:/Software/LowLevel/Echo/include/object.h
 

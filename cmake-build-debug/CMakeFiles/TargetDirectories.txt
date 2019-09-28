@@ -1,3 +1,3 @@
-D:/LowLevel/Echo/cmake-build-debug/CMakeFiles/Echo.dir
-D:/LowLevel/Echo/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/LowLevel/Echo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Software/LowLevel/Echo/cmake-build-debug/CMakeFiles/Echo.dir
+D:/Software/LowLevel/Echo/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Software/LowLevel/Echo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
