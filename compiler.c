@@ -307,10 +307,18 @@ static int addUpvalue(Compiler* compiler, uint8_t index, bool isLocal) {
 static int resolveUpvalue(Compiler* compiler, Token* name) {
     if (compiler->enclosing == NULL) return -1;
 
+    //Check if variable is in current Scope
     int local = resolveLocal(compiler->enclosing, name);
     if (local != -1) {
         return addUpvalue(compiler, (uint8_t)local, true);
     }
+
+    //Check if variable is in current scope upValue
+    int upvalue = resolveUpvalue(compiler->enclosing, name);
+    if (upvalue != -1) {
+        return addUpvalue(compiler, (uint8_t)upvalue, false);
+    }
+
     return -1;
 }
 
@@ -657,6 +665,15 @@ static void function(FunctionType type) {
     // Create the function object.
     ObjFunction* function = endCompiler();
     emitBytes(OP_CLOSURE, makeConstant(OBJ_VAL(function)));
+
+    /*
+     * if the first byte is one, it captures a local variable in the enclosing function.
+     * If zero, it captures one of the function’s UpValues
+     */
+    for (int i = 0; i < function->upvalueCount; i++) {
+        emitByte(compiler.upvalues[i].isLocal ? 1 : 0);
+        emitByte(compiler.upvalues[i].index);
+    }
 }
 
 static void funDeclaration() {

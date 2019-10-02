@@ -13,14 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b66cda11-a07a-40f6-bf68-cc45578cf656" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Echo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Echo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compiler.c" beforeDir="false" afterPath="$PROJECT_DIR$/compiler.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/chunk.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/object.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object.c" beforeDir="false" afterPath="$PROJECT_DIR$/object.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scanner.c" beforeDir="false" afterPath="$PROJECT_DIR$/scanner.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.c" beforeDir="false" afterPath="$PROJECT_DIR$/table.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/value.c" beforeDir="false" afterPath="$PROJECT_DIR$/value.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.c" beforeDir="false" afterPath="$PROJECT_DIR$/debug.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +124,7 @@
       <workItem from="1565118444607" duration="5967000" />
       <workItem from="1569666976085" duration="3054000" />
       <workItem from="1569671882053" duration="1617000" />
-      <workItem from="1570001397392" duration="2788000" />
+      <workItem from="1570001397392" duration="4181000" />
     </task>
     <servers />
   </component>
@@ -155,7 +149,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/debug.c</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
