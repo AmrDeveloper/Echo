@@ -24,6 +24,7 @@ CMakeFiles/Echo.dir/debug.c.obj: ../debug.c
 CMakeFiles/Echo.dir/debug.c.obj: ../include/chunk.h
 CMakeFiles/Echo.dir/debug.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/debug.c.obj: ../include/debug.h
+CMakeFiles/Echo.dir/debug.c.obj: ../include/object.h
 CMakeFiles/Echo.dir/debug.c.obj: ../include/value.h
 
 CMakeFiles/Echo.dir/echo-vm.c.obj: ../echo-vm.c

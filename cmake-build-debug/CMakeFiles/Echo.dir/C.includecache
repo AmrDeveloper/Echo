@@ -39,6 +39,8 @@ include/debug.h
 D:/Software/LowLevel/Echo/include/debug.h
 include/value.h
 D:/Software/LowLevel/Echo/include/value.h
+include/object.h
+D:/Software/LowLevel/Echo/include/object.h
 
 D:/Software/LowLevel/Echo/echo-vm.c
 vm/echo-vm.h
@@ -145,8 +147,6 @@ vm/echo-vm.h
 D:/Software/LowLevel/Echo/vm/echo-vm.h
 
 D:/Software/LowLevel/Echo/scanner.c
-stdio.h
--
 string.h
 -
 include/common.h

@@ -25,6 +25,7 @@ CMakeFiles/Echo.dir/debug.c.obj
  D:/Software/LowLevel/Echo/include/chunk.h
  D:/Software/LowLevel/Echo/include/common.h
  D:/Software/LowLevel/Echo/include/debug.h
+ D:/Software/LowLevel/Echo/include/object.h
  D:/Software/LowLevel/Echo/include/value.h
 CMakeFiles/Echo.dir/echo-vm.c.obj
  D:/Software/LowLevel/Echo/echo-vm.c

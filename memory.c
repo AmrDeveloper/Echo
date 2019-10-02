@@ -31,6 +31,7 @@ static void freeObject(Obj* object) {
             //Free the Closure not the function itself
             //The Garbage Collector  will free in Future
             ObjClosure* closure = (ObjClosure*) object;
+            FREE_ARRAY(Value, closure->upvalues, closure->upvalueCount);
             FREE(ObjClosure,closure);
             break;
         }
@@ -51,6 +52,9 @@ static void freeObject(Obj* object) {
             FREE(ObjString, object);
             break;
         }
+        case OBJ_UPVALUE:
+            FREE(ObjUpvalue, object);
+            break;
     }
 }
 
