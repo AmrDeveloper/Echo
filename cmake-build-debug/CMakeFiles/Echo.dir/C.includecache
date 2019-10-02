@@ -109,17 +109,9 @@ common.h
 D:/Software/LowLevel/Echo/include/common.h
 
 D:/Software/LowLevel/Echo/main.c
-include/common.h
-D:/Software/LowLevel/Echo/include/common.h
-include/chunk.h
-D:/Software/LowLevel/Echo/include/chunk.h
-include/debug.h
-D:/Software/LowLevel/Echo/include/debug.h
 stdio.h
 -
 stdlib.h
--
-string.h
 -
 vm/echo-vm.h
 D:/Software/LowLevel/Echo/vm/echo-vm.h
@@ -169,8 +161,6 @@ string.h
 -
 include/memory.h
 D:/Software/LowLevel/Echo/include/memory.h
-include/object.h
-D:/Software/LowLevel/Echo/include/object.h
 include/table.h
 D:/Software/LowLevel/Echo/include/table.h
 include/value.h
@@ -184,8 +174,6 @@ D:/Software/LowLevel/Echo/include/memory.h
 include/object.h
 D:/Software/LowLevel/Echo/include/object.h
 stdio.h
--
-string.h
 -
 
 D:/Software/LowLevel/Echo/vm/echo-vm.h

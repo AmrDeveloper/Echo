@@ -7,7 +7,6 @@
 #include "include/object.h"
 
 #include <stdio.h>
-#include <string.h>
 
 void initValueArray(ValueArray *array){
     array->count = 0;
