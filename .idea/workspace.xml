@@ -13,15 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b66cda11-a07a-40f6-bf68-cc45578cf656" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler.c" beforeDir="false" afterPath="$PROJECT_DIR$/compiler.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/common.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/compiler.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/compiler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/memory.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/memory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/object.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/echo-vm.c" beforeDir="false" afterPath="$PROJECT_DIR$/echo-vm.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/table.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/table.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/memory.c" beforeDir="false" afterPath="$PROJECT_DIR$/memory.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object.c" beforeDir="false" afterPath="$PROJECT_DIR$/object.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/table.c" beforeDir="false" afterPath="$PROJECT_DIR$/table.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vm/echo-vm.h" beforeDir="false" afterPath="$PROJECT_DIR$/vm/echo-vm.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +122,7 @@
       <workItem from="1570001397392" duration="8790000" />
       <workItem from="1575473622059" duration="49000" />
       <workItem from="1575636598803" duration="916000" />
-      <workItem from="1575646956781" duration="3972000" />
+      <workItem from="1575646956781" duration="7010000" />
     </task>
     <servers />
   </component>
