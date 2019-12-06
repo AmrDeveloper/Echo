@@ -13,9 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b66cda11-a07a-40f6-bf68-cc45578cf656" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chunk.c" beforeDir="false" afterPath="$PROJECT_DIR$/chunk.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/echo-vm.c" beforeDir="false" afterPath="$PROJECT_DIR$/echo-vm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memory.c" beforeDir="false" afterPath="$PROJECT_DIR$/memory.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vm/echo-vm.h" beforeDir="false" afterPath="$PROJECT_DIR$/vm/echo-vm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object.c" beforeDir="false" afterPath="$PROJECT_DIR$/object.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +120,7 @@
       <workItem from="1575473622059" duration="49000" />
       <workItem from="1575636598803" duration="916000" />
       <workItem from="1575646956781" duration="7491000" />
-      <workItem from="1575669580223" duration="222000" />
+      <workItem from="1575669580223" duration="1004000" />
     </task>
     <servers />
   </component>
@@ -147,11 +147,6 @@
           <url>file://$PROJECT_DIR$/debug.c</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/object.c</url>
-          <line>71</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
