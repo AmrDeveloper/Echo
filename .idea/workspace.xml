@@ -13,29 +13,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b66cda11-a07a-40f6-bf68-cc45578cf656" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/chunk.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/chunk.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/compiler.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/compiler.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/debug.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/debug.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/echo-vm.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/echo-vm.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/memory.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/memory.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/object.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/object.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/scanner.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/scanner.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/table.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/table.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/value.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Echo.dir/value.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Echo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Echo.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compiler.c" beforeDir="false" afterPath="$PROJECT_DIR$/compiler.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.c" beforeDir="false" afterPath="$PROJECT_DIR$/debug.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echo-vm.c" beforeDir="false" afterPath="$PROJECT_DIR$/echo-vm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/chunk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/compiler.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/compiler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/memory.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/memory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/object.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/table.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/table.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/memory.c" beforeDir="false" afterPath="$PROJECT_DIR$/memory.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object.c" beforeDir="false" afterPath="$PROJECT_DIR$/object.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vm/echo-vm.h" beforeDir="false" afterPath="$PROJECT_DIR$/vm/echo-vm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.c" beforeDir="false" afterPath="$PROJECT_DIR$/table.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +122,10 @@
       <workItem from="1565118444607" duration="5967000" />
       <workItem from="1569666976085" duration="3054000" />
       <workItem from="1569671882053" duration="1617000" />
-      <workItem from="1570001397392" duration="8575000" />
+      <workItem from="1570001397392" duration="8790000" />
+      <workItem from="1575473622059" duration="49000" />
+      <workItem from="1575636598803" duration="916000" />
+      <workItem from="1575646956781" duration="3972000" />
     </task>
     <servers />
   </component>
@@ -166,7 +155,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/object.c</url>
-          <line>65</line>
+          <line>71</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
