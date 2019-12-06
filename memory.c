@@ -17,6 +17,8 @@
 
 #endif
 
+#define GC_HEAP_GROW_FACTOR 2
+
 /**
 * Dynamic Memory Management function
 * oldSize     newSize                  Operation
@@ -27,9 +29,14 @@
 */
 void *reallocate(void *oldArray, size_t oldSize, size_t newSize) {
     if (newSize > oldSize) {
+        vm.bytesAllocated += newSize - oldSize;
 #ifdef DEBUG_STRESS_GC
         collectGarbage();
 #endif
+    }
+
+    if (vm.bytesAllocated > vm.nextGC) {
+        collectGarbage();
     }
 
     if (newSize == 0) {
@@ -65,7 +72,7 @@ void markValue(Value value) {
     markObject(AS_OBJ(value));
 }
 
-static void markArray(ValueArray* array) {
+static void markArray(ValueArray *array) {
     for (int i = 0; i < array->count; i++) {
         markValue(array->values[i]);
     }
@@ -74,7 +81,7 @@ static void markArray(ValueArray* array) {
 static void blackenObject(Obj *object) {
 
 #ifdef DEBUG_LOG_GC
-    printf("%p blacken ", (void*)object);
+    printf("%p blacken ", (void *) object);
     printValue(OBJ_VAL(object));
     printf("\n");
 #endif
@@ -209,6 +216,7 @@ static void sweep() {
 void collectGarbage() {
 #ifdef DEBUG_LOG_GC
     printf("-- gc begin\n");
+    size_t before = vm.bytesAllocated;
 #endif
 
     markRoots();
@@ -219,7 +227,12 @@ void collectGarbage() {
 
     sweep();
 
+    vm.nextGC = vm.bytesAllocated * GC_HEAP_GROW_FACTOR;
+
 #ifdef DEBUG_LOG_GC
     printf("-- gc end\n");
+    printf("   collected %ld bytes (from %ld to %ld) next at %ld\n",
+           before - vm.bytesAllocated, before, vm.bytesAllocated,
+           vm.nextGC);
 #endif
 }
