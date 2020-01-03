@@ -22,14 +22,20 @@ static Obj *allocateObject(size_t size, ObjType type) {
     vm.objects = object;
 
 #ifdef DEBUG_LOG_GC
-    printf("%p allocate %ld for %d\n", (void*)object, size, type);
+    printf("%p allocate %ld for %d\n", (void *) object, size, type);
 #endif
 
     return object;
 }
 
+ObjClass *newClass(ObjString *name) {
+    ObjClass *classObj = ALLOCATE_OBJ(ObjClass, OBJ_CLASS);
+    classObj->name = name;
+    return classObj;
+}
+
 ObjClosure *newClosure(ObjFunction *function) {
-    ObjUpvalue** upvalues = ALLOCATE(ObjUpvalue*, function->upvalueCount);
+    ObjUpvalue **upvalues = ALLOCATE(ObjUpvalue*, function->upvalueCount);
     for (int i = 0; i < function->upvalueCount; i++) {
         upvalues[i] = NULL;
     }
@@ -111,8 +117,8 @@ ObjString *copyString(const char *chars, int length) {
     return allocateString(heapChars, length, hash);
 }
 
-ObjUpvalue* newUpvalue(Value* slot) {
-    ObjUpvalue* upvalue = ALLOCATE_OBJ(ObjUpvalue, OBJ_UPVALUE);
+ObjUpvalue *newUpvalue(Value *slot) {
+    ObjUpvalue *upvalue = ALLOCATE_OBJ(ObjUpvalue, OBJ_UPVALUE);
     upvalue->location = slot;
     upvalue->closed = NIL_VAL;
     upvalue->next = NULL;
@@ -121,6 +127,10 @@ ObjUpvalue* newUpvalue(Value* slot) {
 
 void printObject(Value value) {
     switch (OBJ_TYPE(value)) {
+        case OBJ_CLASS: {
+            printf("%s", AS_CLASS(value)->name->chars);
+            break;
+        }
         case OBJ_CLOSURE: {
             //For Compiler Special function that haven't name in DEBUG_TRACE_EXECUTION
             if (AS_CLOSURE(value)->function->name == NULL) {
