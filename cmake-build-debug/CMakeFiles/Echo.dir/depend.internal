@@ -7,7 +7,9 @@ CMakeFiles/Echo.dir/chunk.c.obj
  D:/Software/LowLevel/Echo/include/common.h
  D:/Software/LowLevel/Echo/include/memory.h
  D:/Software/LowLevel/Echo/include/object.h
+ D:/Software/LowLevel/Echo/include/table.h
  D:/Software/LowLevel/Echo/include/value.h
+ D:/Software/LowLevel/Echo/vm/echo-vm.h
 CMakeFiles/Echo.dir/compiler.c.obj
  D:/Software/LowLevel/Echo/compiler.c
  D:/Software/LowLevel/Echo/include/chunk.h
@@ -26,6 +28,7 @@ CMakeFiles/Echo.dir/debug.c.obj
  D:/Software/LowLevel/Echo/include/common.h
  D:/Software/LowLevel/Echo/include/debug.h
  D:/Software/LowLevel/Echo/include/object.h
+ D:/Software/LowLevel/Echo/include/table.h
  D:/Software/LowLevel/Echo/include/value.h
 CMakeFiles/Echo.dir/echo-vm.c.obj
  D:/Software/LowLevel/Echo/echo-vm.c
@@ -49,6 +52,8 @@ CMakeFiles/Echo.dir/main.c.obj
 CMakeFiles/Echo.dir/memory.c.obj
  D:/Software/LowLevel/Echo/include/chunk.h
  D:/Software/LowLevel/Echo/include/common.h
+ D:/Software/LowLevel/Echo/include/compiler.h
+ D:/Software/LowLevel/Echo/include/debug.h
  D:/Software/LowLevel/Echo/include/memory.h
  D:/Software/LowLevel/Echo/include/object.h
  D:/Software/LowLevel/Echo/include/table.h
@@ -81,5 +86,6 @@ CMakeFiles/Echo.dir/value.c.obj
  D:/Software/LowLevel/Echo/include/common.h
  D:/Software/LowLevel/Echo/include/memory.h
  D:/Software/LowLevel/Echo/include/object.h
+ D:/Software/LowLevel/Echo/include/table.h
  D:/Software/LowLevel/Echo/include/value.h
  D:/Software/LowLevel/Echo/value.c

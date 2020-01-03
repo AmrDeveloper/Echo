@@ -13,6 +13,8 @@ include/chunk.h
 D:/Software/LowLevel/Echo/include/chunk.h
 include/memory.h
 D:/Software/LowLevel/Echo/include/memory.h
+vm/echo-vm.h
+D:/Software/LowLevel/Echo/vm/echo-vm.h
 
 D:/Software/LowLevel/Echo/compiler.c
 stdio.h
@@ -97,6 +99,8 @@ value.h
 D:/Software/LowLevel/Echo/include/value.h
 chunk.h
 D:/Software/LowLevel/Echo/include/chunk.h
+table.h
+D:/Software/LowLevel/Echo/include/table.h
 
 D:/Software/LowLevel/Echo/include/scanner.h
 
@@ -127,8 +131,14 @@ include/value.h
 D:/Software/LowLevel/Echo/include/value.h
 include/object.h
 D:/Software/LowLevel/Echo/include/object.h
+include/compiler.h
+D:/Software/LowLevel/Echo/include/compiler.h
 vm/echo-vm.h
 D:/Software/LowLevel/Echo/vm/echo-vm.h
+stdio.h
+-
+include/debug.h
+D:/Software/LowLevel/Echo/include/debug.h
 
 D:/Software/LowLevel/Echo/object.c
 stdio.h
@@ -145,14 +155,6 @@ include/table.h
 D:/Software/LowLevel/Echo/include/table.h
 vm/echo-vm.h
 D:/Software/LowLevel/Echo/vm/echo-vm.h
-
-D:/Software/LowLevel/Echo/scanner.c
-string.h
--
-include/common.h
-D:/Software/LowLevel/Echo/include/common.h
-include/scanner.h
-D:/Software/LowLevel/Echo/include/scanner.h
 
 D:/Software/LowLevel/Echo/table.c
 stdlib.h
