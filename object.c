@@ -28,9 +28,18 @@ static Obj *allocateObject(size_t size, ObjType type) {
     return object;
 }
 
+ObjBoundMethod* newBoundMethod(Value receiver, ObjClosure* method) {
+    ObjBoundMethod* bound = ALLOCATE_OBJ(ObjBoundMethod,
+                                         OBJ_BOUND_METHOD);
+    bound->receiver = receiver;
+    bound->method = method;
+    return bound;
+}
+
 ObjClass *newClass(ObjString *name) {
     ObjClass *classObj = ALLOCATE_OBJ(ObjClass, OBJ_CLASS);
     classObj->name = name;
+    initTable(&classObj->methods);
     return classObj;
 }
 
@@ -132,27 +141,31 @@ ObjUpvalue *newUpvalue(Value *slot) {
     return upvalue;
 }
 
+static void printFunction(ObjFunction* function) {
+    if (function->name == NULL) {
+        printf("<script>");
+        return;
+    }
+    printf("<fn %s>", function->name->chars);
+}
+
 void printObject(Value value) {
     switch (OBJ_TYPE(value)) {
+        case OBJ_BOUND_METHOD: {
+            printFunction(AS_BOUND_METHOD(value)->method->function);
+            break;
+        }
         case OBJ_CLASS: {
             printf("%s", AS_CLASS(value)->name->chars);
             break;
         }
         case OBJ_CLOSURE: {
             //For Compiler Special function that haven't name in DEBUG_TRACE_EXECUTION
-            if (AS_CLOSURE(value)->function->name == NULL) {
-                printf("<script>");
-                break;
-            }
-            printf("<fn %s>", AS_CLOSURE(value)->function->name->chars);
+            printFunction(AS_CLOSURE(value)->function);
             break;
         }
         case OBJ_FUNCTION:
-            if (AS_FUNCTION(value)->name == NULL) {
-                printf("<script>");
-                break;
-            }
-            printf("<fn %s>", AS_FUNCTION(value)->name->chars);
+            printFunction(AS_FUNCTION(value));
             break;
         case OBJ_INSTANCE:
             printf("%s instance", AS_INSTANCE(value)->classObj->name->chars);
