@@ -18,7 +18,7 @@ void initTable(Table *table) {
 }
 
 void freeTable(Table *table) {
-    FREE_ARRAY(Entry, table->entries, table->capacity);
+    FREE_ARRAY(Entry, table->entries, table->capacity + 1);
     initTable(table);
 }
 
@@ -156,7 +156,7 @@ ObjString* tableFindString(Table* table, const char* chars, int length,
 }
 
 void tableRemoveWhite(Table* table) {
-    for (int i = 0; i < table->capacity; i++) {
+    for (int i = 0; i <= table->capacity; i++) {
         Entry* entry = &table->entries[i];
         if (entry->key != NULL && !entry->key->obj.isMarked) {
             tableDelete(table, entry->key);
@@ -165,7 +165,7 @@ void tableRemoveWhite(Table* table) {
 }
 
 void markTable(Table* table) {
-    for (int i = 0; i < table->capacity; i++) {
+    for (int i = 0; i <= table->capacity; i++) {
         Entry* entry = &table->entries[i];
         markObject((Obj*)entry->key);
         markValue(entry->value);
