@@ -5,6 +5,7 @@
 #define ECHO_VALUE_H
 
 #include "common.h"
+#include <string.h>
 
 typedef struct sObj Obj;
 typedef struct sObjString ObjString;
@@ -55,6 +56,11 @@ static inline double valueToNum(Value value) {
     return data.num;
 }
 
+static inline Value numToValue(double num) {
+    Value value;
+    memcpy(&value, &num, sizeof(double));
+    return value;
+}
 #else
 
 typedef enum {

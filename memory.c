@@ -5,15 +5,11 @@
 #include <stdlib.h>
 
 #include "include/memory.h"
-#include "include/value.h"
-#include "include/object.h"
 #include "include/compiler.h"
-#include "vm/echo-vm.h"
 
 #ifdef DEBUG_LOG_GC
 
 #include <stdio.h>
-#include "include/debug.h"
 
 #endif
 
