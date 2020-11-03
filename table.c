@@ -51,7 +51,7 @@ static Entry *findEntry(Entry *entries, int capacity, ObjString *key) {
 static void adjustCapacity(Table* table, int capacity) {
     //Allocate table with new capacity in memory
     Entry* entries = ALLOCATE(Entry, capacity + 1);
-    for (int i = 0; i <= table->capacity; i++) {
+    for (int i = 0; i <= capacity; i++) {
         //Make every Entry in table is null value
         entries[i].key = NULL;
         entries[i].value = NIL_VAL;

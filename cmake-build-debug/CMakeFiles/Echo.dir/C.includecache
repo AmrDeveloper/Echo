@@ -64,6 +64,18 @@ D:/Software/LowLevel/Echo/include/compiler.h
 stdio.h
 -
 
+D:/Software/LowLevel/Echo/table.c
+stdlib.h
+-
+string.h
+-
+include/memory.h
+D:/Software/LowLevel/Echo/include/memory.h
+include/table.h
+D:/Software/LowLevel/Echo/include/table.h
+include/value.h
+D:/Software/LowLevel/Echo/include/value.h
+
 D:/Software/LowLevel/Echo/vm/echo-vm.h
 ../include/value.h
 D:/Software/LowLevel/Echo/include/value.h

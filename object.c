@@ -22,7 +22,7 @@ static Obj *allocateObject(size_t size, ObjType type) {
     vm.objects = object;
 
 #ifdef DEBUG_LOG_GC
-    printf("%p allocate %ld for %d\n", (void *) object, size, type);
+    //printf("%p allocate %ld for %d\n", (void *) object, size, type);
 #endif
 
     return object;

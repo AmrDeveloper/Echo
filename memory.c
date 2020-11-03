@@ -39,7 +39,11 @@ void *reallocate(void *oldArray, size_t oldSize, size_t newSize) {
         free(oldArray);
         return NULL;
     }
-    return realloc(oldArray, newSize);
+
+    void* result = realloc(oldArray, newSize);
+    if (result == NULL) exit(1);
+
+    return result;
 }
 
 void markObject(Obj *object) {
@@ -58,6 +62,8 @@ void markObject(Obj *object) {
         vm.grayCapacity = GROW_CAPACITY(vm.grayCapacity);
         vm.grayStack = realloc(vm.grayStack,
                                sizeof(Obj *) * vm.grayCapacity);
+
+        if(vm.grayStack == NULL) exit(1);
     }
 
     vm.grayStack[vm.grayCount++] = object;
@@ -89,8 +95,8 @@ static void blackenObject(Obj *object) {
         }
         case OBJ_CLASS: {
             ObjClass* klass = (ObjClass*)object;
-            markTable(&klass->methods);
             markObject((Obj*)klass->name);
+            markTable(&klass->methods);
             break;
         }
         case OBJ_CLOSURE: {
@@ -205,10 +211,10 @@ static void markRoots() {
     //Mark global variables
     markTable(&vm.globals);
 
-    markObject((Obj*)vm.initString);
-
     //Mark Compiler Roots
     markCompilerRoots();
+
+    markObject((Obj*)vm.initString);
 }
 
 //Convert Gray node to black node
