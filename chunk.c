@@ -5,7 +5,7 @@
 #include "include/value.h"
 #include "include/chunk.h"
 #include "include/memory.h"
-#include "vm/echo-vm.h"
+#include "include/echo-vm.h"
 
 void initChunk(Chunk *chunk) {
     chunk->count = 0;

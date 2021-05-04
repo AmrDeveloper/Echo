@@ -5,9 +5,9 @@
 #ifndef ECHO_ECHO_VM_H
 #define ECHO_ECHO_VM_H
 
-#include "../include/value.h"
-#include "../include/table.h"
-#include "../include/object.h"
+#include "value.h"
+#include "table.h"
+#include "object.h"
 
 #define FRAMES_MAX 64
 #define STACK_MAX (FRAMES_MAX * UINT8_COUNT)

@@ -6,10 +6,7 @@
 #include <string.h>
 
 #include "include/memory.h"
-#include "include/object.h"
-#include "include/value.h"
-#include "include/table.h"
-#include "vm/echo-vm.h"
+#include "include/echo-vm.h"
 
 #define ALLOCATE_OBJ(type, objectType) \
     (type*)allocateObject(sizeof(type), objectType)

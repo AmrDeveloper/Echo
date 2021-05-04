@@ -5,23 +5,23 @@ CMakeFiles/Echo.dir/chunk.c.obj
  E:/Software/LowLevel/Echo/chunk.c
  E:/Software/LowLevel/Echo/include/chunk.h
  E:/Software/LowLevel/Echo/include/common.h
+ E:/Software/LowLevel/Echo/include/echo-vm.h
  E:/Software/LowLevel/Echo/include/memory.h
  E:/Software/LowLevel/Echo/include/object.h
  E:/Software/LowLevel/Echo/include/table.h
  E:/Software/LowLevel/Echo/include/value.h
- E:/Software/LowLevel/Echo/vm/echo-vm.h
 CMakeFiles/Echo.dir/compiler.c.obj
  E:/Software/LowLevel/Echo/compiler.c
  E:/Software/LowLevel/Echo/include/chunk.h
  E:/Software/LowLevel/Echo/include/common.h
  E:/Software/LowLevel/Echo/include/compiler.h
  E:/Software/LowLevel/Echo/include/debug.h
+ E:/Software/LowLevel/Echo/include/echo-vm.h
  E:/Software/LowLevel/Echo/include/memory.h
  E:/Software/LowLevel/Echo/include/object.h
  E:/Software/LowLevel/Echo/include/scanner.h
  E:/Software/LowLevel/Echo/include/table.h
  E:/Software/LowLevel/Echo/include/value.h
- E:/Software/LowLevel/Echo/vm/echo-vm.h
 CMakeFiles/Echo.dir/debug.c.obj
  E:/Software/LowLevel/Echo/debug.c
  E:/Software/LowLevel/Echo/include/chunk.h
@@ -35,38 +35,38 @@ CMakeFiles/Echo.dir/echo-vm.c.obj
  E:/Software/LowLevel/Echo/include/chunk.h
  E:/Software/LowLevel/Echo/include/common.h
  E:/Software/LowLevel/Echo/include/compiler.h
+ E:/Software/LowLevel/Echo/include/echo-vm.h
  E:/Software/LowLevel/Echo/include/memory.h
  E:/Software/LowLevel/Echo/include/object.h
  E:/Software/LowLevel/Echo/include/table.h
  E:/Software/LowLevel/Echo/include/value.h
- E:/Software/LowLevel/Echo/vm/echo-vm.h
 CMakeFiles/Echo.dir/main.c.obj
  E:/Software/LowLevel/Echo/include/chunk.h
  E:/Software/LowLevel/Echo/include/common.h
+ E:/Software/LowLevel/Echo/include/echo-vm.h
  E:/Software/LowLevel/Echo/include/object.h
  E:/Software/LowLevel/Echo/include/table.h
  E:/Software/LowLevel/Echo/include/value.h
  E:/Software/LowLevel/Echo/main.c
- E:/Software/LowLevel/Echo/vm/echo-vm.h
 CMakeFiles/Echo.dir/memory.c.obj
  E:/Software/LowLevel/Echo/include/chunk.h
  E:/Software/LowLevel/Echo/include/common.h
  E:/Software/LowLevel/Echo/include/compiler.h
+ E:/Software/LowLevel/Echo/include/echo-vm.h
  E:/Software/LowLevel/Echo/include/memory.h
  E:/Software/LowLevel/Echo/include/object.h
  E:/Software/LowLevel/Echo/include/table.h
  E:/Software/LowLevel/Echo/include/value.h
  E:/Software/LowLevel/Echo/memory.c
- E:/Software/LowLevel/Echo/vm/echo-vm.h
 CMakeFiles/Echo.dir/object.c.obj
  E:/Software/LowLevel/Echo/include/chunk.h
  E:/Software/LowLevel/Echo/include/common.h
+ E:/Software/LowLevel/Echo/include/echo-vm.h
  E:/Software/LowLevel/Echo/include/memory.h
  E:/Software/LowLevel/Echo/include/object.h
  E:/Software/LowLevel/Echo/include/table.h
  E:/Software/LowLevel/Echo/include/value.h
  E:/Software/LowLevel/Echo/object.c
- E:/Software/LowLevel/Echo/vm/echo-vm.h
 CMakeFiles/Echo.dir/scanner.c.obj
  E:/Software/LowLevel/Echo/include/common.h
  E:/Software/LowLevel/Echo/include/scanner.h

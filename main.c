@@ -2,12 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "vm/echo-vm.h"
+#include "include/echo-vm.h"
 
 static void repl() {
+    printf("Welcome to the Clox REPL\n");
     char line[1024];
-    for (;;) {
-        printf("> ");
+    while (true) {
+        printf(">");
 
         if (!fgets(line, sizeof(line), stdin)) {
             printf("\n");

@@ -2,7 +2,7 @@
 // Created by AmrDeveloper on 7/26/2019.
 //
 
-#include "vm/echo-vm.h"
+#include "include/echo-vm.h"
 #include "include/compiler.h"
 #include "include/memory.h"
 
@@ -10,7 +10,6 @@
 #include <stdarg.h>
 #include <string.h>
 #include <time.h>
-
 
 VM vm;
 

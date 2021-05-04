@@ -7,7 +7,7 @@
 
 #include "chunk.h"
 #include "object.h"
-#include "../vm/echo-vm.h"
+#include "echo-vm.h"
 
 ObjFunction* compile(const char* source);
 
