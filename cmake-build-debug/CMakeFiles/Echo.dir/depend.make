@@ -34,7 +34,6 @@ CMakeFiles/Echo.dir/echo-vm.c.obj: ../echo-vm.c
 CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/chunk.h
 CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/common.h
 CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/compiler.h
-CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/debug.h
 CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/memory.h
 CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/object.h
 CMakeFiles/Echo.dir/echo-vm.c.obj: ../include/table.h

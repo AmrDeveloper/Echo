@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Software\LowLevel\Echo
+CMAKE_SOURCE_DIR = E:\Software\LowLevel\Echo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Software\LowLevel\Echo\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Software\LowLevel\Echo\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Echo.dir/depend.make
@@ -78,133 +78,133 @@ include CMakeFiles/Echo.dir/flags.make
 
 CMakeFiles/Echo.dir/main.c.obj: CMakeFiles/Echo.dir/flags.make
 CMakeFiles/Echo.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Echo.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\main.c.obj   -c D:\Software\LowLevel\Echo\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Echo.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\main.c.obj   -c E:\Software\LowLevel\Echo\main.c
 
 CMakeFiles/Echo.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Echo.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Software\LowLevel\Echo\main.c > CMakeFiles\Echo.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Software\LowLevel\Echo\main.c > CMakeFiles\Echo.dir\main.c.i
 
 CMakeFiles/Echo.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Echo.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Software\LowLevel\Echo\main.c -o CMakeFiles\Echo.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Software\LowLevel\Echo\main.c -o CMakeFiles\Echo.dir\main.c.s
 
 CMakeFiles/Echo.dir/chunk.c.obj: CMakeFiles/Echo.dir/flags.make
 CMakeFiles/Echo.dir/chunk.c.obj: ../chunk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Echo.dir/chunk.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\chunk.c.obj   -c D:\Software\LowLevel\Echo\chunk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Echo.dir/chunk.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\chunk.c.obj   -c E:\Software\LowLevel\Echo\chunk.c
 
 CMakeFiles/Echo.dir/chunk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Echo.dir/chunk.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Software\LowLevel\Echo\chunk.c > CMakeFiles\Echo.dir\chunk.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Software\LowLevel\Echo\chunk.c > CMakeFiles\Echo.dir\chunk.c.i
 
 CMakeFiles/Echo.dir/chunk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Echo.dir/chunk.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Software\LowLevel\Echo\chunk.c -o CMakeFiles\Echo.dir\chunk.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Software\LowLevel\Echo\chunk.c -o CMakeFiles\Echo.dir\chunk.c.s
 
 CMakeFiles/Echo.dir/memory.c.obj: CMakeFiles/Echo.dir/flags.make
 CMakeFiles/Echo.dir/memory.c.obj: ../memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Echo.dir/memory.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\memory.c.obj   -c D:\Software\LowLevel\Echo\memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Echo.dir/memory.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\memory.c.obj   -c E:\Software\LowLevel\Echo\memory.c
 
 CMakeFiles/Echo.dir/memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Echo.dir/memory.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Software\LowLevel\Echo\memory.c > CMakeFiles\Echo.dir\memory.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Software\LowLevel\Echo\memory.c > CMakeFiles\Echo.dir\memory.c.i
 
 CMakeFiles/Echo.dir/memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Echo.dir/memory.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Software\LowLevel\Echo\memory.c -o CMakeFiles\Echo.dir\memory.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Software\LowLevel\Echo\memory.c -o CMakeFiles\Echo.dir\memory.c.s
 
 CMakeFiles/Echo.dir/debug.c.obj: CMakeFiles/Echo.dir/flags.make
 CMakeFiles/Echo.dir/debug.c.obj: ../debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Echo.dir/debug.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\debug.c.obj   -c D:\Software\LowLevel\Echo\debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Echo.dir/debug.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\debug.c.obj   -c E:\Software\LowLevel\Echo\debug.c
 
 CMakeFiles/Echo.dir/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Echo.dir/debug.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Software\LowLevel\Echo\debug.c > CMakeFiles\Echo.dir\debug.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Software\LowLevel\Echo\debug.c > CMakeFiles\Echo.dir\debug.c.i
 
 CMakeFiles/Echo.dir/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Echo.dir/debug.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Software\LowLevel\Echo\debug.c -o CMakeFiles\Echo.dir\debug.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Software\LowLevel\Echo\debug.c -o CMakeFiles\Echo.dir\debug.c.s
 
 CMakeFiles/Echo.dir/value.c.obj: CMakeFiles/Echo.dir/flags.make
 CMakeFiles/Echo.dir/value.c.obj: ../value.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Echo.dir/value.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\value.c.obj   -c D:\Software\LowLevel\Echo\value.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Echo.dir/value.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\value.c.obj   -c E:\Software\LowLevel\Echo\value.c
 
 CMakeFiles/Echo.dir/value.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Echo.dir/value.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Software\LowLevel\Echo\value.c > CMakeFiles\Echo.dir\value.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Software\LowLevel\Echo\value.c > CMakeFiles\Echo.dir\value.c.i
 
 CMakeFiles/Echo.dir/value.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Echo.dir/value.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Software\LowLevel\Echo\value.c -o CMakeFiles\Echo.dir\value.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Software\LowLevel\Echo\value.c -o CMakeFiles\Echo.dir\value.c.s
 
 CMakeFiles/Echo.dir/echo-vm.c.obj: CMakeFiles/Echo.dir/flags.make
 CMakeFiles/Echo.dir/echo-vm.c.obj: ../echo-vm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Echo.dir/echo-vm.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\echo-vm.c.obj   -c D:\Software\LowLevel\Echo\echo-vm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Echo.dir/echo-vm.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\echo-vm.c.obj   -c E:\Software\LowLevel\Echo\echo-vm.c
 
 CMakeFiles/Echo.dir/echo-vm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Echo.dir/echo-vm.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Software\LowLevel\Echo\echo-vm.c > CMakeFiles\Echo.dir\echo-vm.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Software\LowLevel\Echo\echo-vm.c > CMakeFiles\Echo.dir\echo-vm.c.i
 
 CMakeFiles/Echo.dir/echo-vm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Echo.dir/echo-vm.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Software\LowLevel\Echo\echo-vm.c -o CMakeFiles\Echo.dir\echo-vm.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Software\LowLevel\Echo\echo-vm.c -o CMakeFiles\Echo.dir\echo-vm.c.s
 
 CMakeFiles/Echo.dir/compiler.c.obj: CMakeFiles/Echo.dir/flags.make
 CMakeFiles/Echo.dir/compiler.c.obj: ../compiler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Echo.dir/compiler.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\compiler.c.obj   -c D:\Software\LowLevel\Echo\compiler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Echo.dir/compiler.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\compiler.c.obj   -c E:\Software\LowLevel\Echo\compiler.c
 
 CMakeFiles/Echo.dir/compiler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Echo.dir/compiler.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Software\LowLevel\Echo\compiler.c > CMakeFiles\Echo.dir\compiler.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Software\LowLevel\Echo\compiler.c > CMakeFiles\Echo.dir\compiler.c.i
 
 CMakeFiles/Echo.dir/compiler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Echo.dir/compiler.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Software\LowLevel\Echo\compiler.c -o CMakeFiles\Echo.dir\compiler.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Software\LowLevel\Echo\compiler.c -o CMakeFiles\Echo.dir\compiler.c.s
 
 CMakeFiles/Echo.dir/scanner.c.obj: CMakeFiles/Echo.dir/flags.make
 CMakeFiles/Echo.dir/scanner.c.obj: ../scanner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Echo.dir/scanner.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\scanner.c.obj   -c D:\Software\LowLevel\Echo\scanner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Echo.dir/scanner.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\scanner.c.obj   -c E:\Software\LowLevel\Echo\scanner.c
 
 CMakeFiles/Echo.dir/scanner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Echo.dir/scanner.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Software\LowLevel\Echo\scanner.c > CMakeFiles\Echo.dir\scanner.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Software\LowLevel\Echo\scanner.c > CMakeFiles\Echo.dir\scanner.c.i
 
 CMakeFiles/Echo.dir/scanner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Echo.dir/scanner.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Software\LowLevel\Echo\scanner.c -o CMakeFiles\Echo.dir\scanner.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Software\LowLevel\Echo\scanner.c -o CMakeFiles\Echo.dir\scanner.c.s
 
 CMakeFiles/Echo.dir/object.c.obj: CMakeFiles/Echo.dir/flags.make
 CMakeFiles/Echo.dir/object.c.obj: ../object.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Echo.dir/object.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\object.c.obj   -c D:\Software\LowLevel\Echo\object.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Echo.dir/object.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\object.c.obj   -c E:\Software\LowLevel\Echo\object.c
 
 CMakeFiles/Echo.dir/object.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Echo.dir/object.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Software\LowLevel\Echo\object.c > CMakeFiles\Echo.dir\object.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Software\LowLevel\Echo\object.c > CMakeFiles\Echo.dir\object.c.i
 
 CMakeFiles/Echo.dir/object.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Echo.dir/object.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Software\LowLevel\Echo\object.c -o CMakeFiles\Echo.dir\object.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Software\LowLevel\Echo\object.c -o CMakeFiles\Echo.dir\object.c.s
 
 CMakeFiles/Echo.dir/table.c.obj: CMakeFiles/Echo.dir/flags.make
 CMakeFiles/Echo.dir/table.c.obj: ../table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Echo.dir/table.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\table.c.obj   -c D:\Software\LowLevel\Echo\table.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Echo.dir/table.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Echo.dir\table.c.obj   -c E:\Software\LowLevel\Echo\table.c
 
 CMakeFiles/Echo.dir/table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Echo.dir/table.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Software\LowLevel\Echo\table.c > CMakeFiles\Echo.dir\table.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Software\LowLevel\Echo\table.c > CMakeFiles\Echo.dir\table.c.i
 
 CMakeFiles/Echo.dir/table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Echo.dir/table.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Software\LowLevel\Echo\table.c -o CMakeFiles\Echo.dir\table.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Software\LowLevel\Echo\table.c -o CMakeFiles\Echo.dir\table.c.s
 
 # Object files for target Echo
 Echo_OBJECTS = \
@@ -236,7 +236,7 @@ Echo.exe: CMakeFiles/Echo.dir/build.make
 Echo.exe: CMakeFiles/Echo.dir/linklibs.rsp
 Echo.exe: CMakeFiles/Echo.dir/objects1.rsp
 Echo.exe: CMakeFiles/Echo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable Echo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable Echo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Echo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -249,6 +249,6 @@ CMakeFiles/Echo.dir/clean:
 .PHONY : CMakeFiles/Echo.dir/clean
 
 CMakeFiles/Echo.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Software\LowLevel\Echo D:\Software\LowLevel\Echo D:\Software\LowLevel\Echo\cmake-build-debug D:\Software\LowLevel\Echo\cmake-build-debug D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles\Echo.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Software\LowLevel\Echo E:\Software\LowLevel\Echo E:\Software\LowLevel\Echo\cmake-build-debug E:\Software\LowLevel\Echo\cmake-build-debug E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles\Echo.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Echo.dir/depend
 

@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Software/LowLevel/Echo/cmake-build-debug"/>
+				<Option working_dir="E:/Software/LowLevel/Echo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Echo">
-				<Option output="D:/Software/LowLevel/Echo/cmake-build-debug/Echo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Software/LowLevel/Echo/cmake-build-debug"/>
+				<Option output="E:/Software/LowLevel/Echo/cmake-build-debug/Echo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Software/LowLevel/Echo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,15 +30,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Echo"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Echo"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Echo/fast">
-				<Option output="D:/Software/LowLevel/Echo/cmake-build-debug/Echo.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Software/LowLevel/Echo/cmake-build-debug"/>
+				<Option output="E:/Software/LowLevel/Echo/cmake-build-debug/Echo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Software/LowLevel/Echo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,94 +49,94 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Echo/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Echo/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Software/LowLevel/Echo/cmake-build-debug"/>
+				<Option working_dir="E:/Software/LowLevel/Echo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Software/LowLevel/Echo/cmake-build-debug"/>
+				<Option working_dir="E:/Software/LowLevel/Echo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Software/LowLevel/Echo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Software/LowLevel/Echo/chunk.c">
+		<Unit filename="E:/Software/LowLevel/Echo/chunk.c">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/compiler.c">
+		<Unit filename="E:/Software/LowLevel/Echo/compiler.c">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/debug.c">
+		<Unit filename="E:/Software/LowLevel/Echo/debug.c">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/echo-vm.c">
+		<Unit filename="E:/Software/LowLevel/Echo/echo-vm.c">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/include/chunk.h">
+		<Unit filename="E:/Software/LowLevel/Echo/include/chunk.h">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/include/common.h">
+		<Unit filename="E:/Software/LowLevel/Echo/include/common.h">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/include/compiler.h">
+		<Unit filename="E:/Software/LowLevel/Echo/include/compiler.h">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/include/debug.h">
+		<Unit filename="E:/Software/LowLevel/Echo/include/debug.h">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/include/memory.h">
+		<Unit filename="E:/Software/LowLevel/Echo/include/memory.h">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/include/object.h">
+		<Unit filename="E:/Software/LowLevel/Echo/include/object.h">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/include/scanner.h">
+		<Unit filename="E:/Software/LowLevel/Echo/include/scanner.h">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/include/table.h">
+		<Unit filename="E:/Software/LowLevel/Echo/include/table.h">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/include/value.h">
+		<Unit filename="E:/Software/LowLevel/Echo/include/value.h">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/main.c">
+		<Unit filename="E:/Software/LowLevel/Echo/main.c">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/memory.c">
+		<Unit filename="E:/Software/LowLevel/Echo/memory.c">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/object.c">
+		<Unit filename="E:/Software/LowLevel/Echo/object.c">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/scanner.c">
+		<Unit filename="E:/Software/LowLevel/Echo/scanner.c">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/table.c">
+		<Unit filename="E:/Software/LowLevel/Echo/table.c">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/value.c">
+		<Unit filename="E:/Software/LowLevel/Echo/value.c">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/vm/echo-vm.h">
+		<Unit filename="E:/Software/LowLevel/Echo/vm/echo-vm.h">
 			<Option target="Echo"/>
 		</Unit>
-		<Unit filename="D:/Software/LowLevel/Echo/CMakeLists.txt">
+		<Unit filename="E:/Software/LowLevel/Echo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

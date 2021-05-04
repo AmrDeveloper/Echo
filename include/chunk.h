@@ -11,7 +11,7 @@
 //each instruction has a one-byte operation code (OP)
 //This enum represent type of operation code
 typedef enum {
-    OP_CONSTANT,
+    OP_CONSTANT = 0,
     OP_NIL,
     OP_TRUE,
     OP_FALSE,

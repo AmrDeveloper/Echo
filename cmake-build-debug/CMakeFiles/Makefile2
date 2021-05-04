@@ -54,19 +54,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Software\LowLevel\Echo
+CMAKE_SOURCE_DIR = E:\Software\LowLevel\Echo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Software\LowLevel\Echo\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Software\LowLevel\Echo\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/Echo.dir/clean
 CMakeFiles/Echo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Echo.dir\build.make CMakeFiles/Echo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target Echo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target Echo"
 .PHONY : CMakeFiles/Echo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Echo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Echo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Software\LowLevel\Echo\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Echo.dir/rule
 
 # Convenience name for target.
